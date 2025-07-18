@@ -1,0 +1,111 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vw;
+    background-color: #f0f0f0;
+}
+
+.leftContent {
+    width: 40vw;
+    float: left;
+    padding-top: 2vw;
+    margin-left: 5vw;
+}
+
+.rightContent {
+    width: 60vw;
+    float: right;
+    padding: 2vw;
+}
+
+#title {
+    font-size: 3.8vw;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "EB Garamond", serif;
+}
+
+#subtitle {
+    font-size: 1vw;
+    margin-top: -1vw;
+    font-family: "Quicksand", sans-serif;
+}
+
+#description {
+    font-size: 0.9vw;
+    color: #666;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 1.5vw;
+    text-align: justify;
+    width: 37vw;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 2vw;
+}
+
+.buttonImage {
+    width: 2vw;
+    height: auto;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+.rightContent {
+    position: relative;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 60% 40% 40% 60% / 50% 50% 50% 50%; // forma orgânica
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-right: 5vw;
+}
+
+.profileImage {
+    width: 35vw;
+    height: auto;
+    object-fit: cover;
+    margin-top: -19vw;
+    margin-left: -9vw;
+}
+
+.content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#listOfProjectsBackground {
+    background-color: black;
+    padding-left: 9vw;
+    padding-right: 9vw;
+}
+
+#listOfProjects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: auto;
+}
+
+.project {
+    margin: auto;
+}
+
+.projectImage {
+    width: 18vw;
+    height: auto;
+    margin: auto;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.projectImage:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}

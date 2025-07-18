@@ -1,0 +1,43 @@
+<div class="homeContainer">
+    <div class="leftContent">
+        <div id="title">
+            <label>Fernando Muniz Erthal</label>
+        </div>
+        <div id="subtitle">
+            <p *ngIf="language == 'en'"> Senior Software Engineer | 13+ Years of Experience | Java Backend | Angular (2+) </p>
+            <p *ngIf="language == 'pt'"> Sênior Software Engineer | 13+ Anos de Experiência | Java Backend | Angular (2+) </p>
+        </div>
+        <div id="description">
+            <p *ngIf="language == 'en'">Senior Software Developer with 13+ years of experience delivering robust backend solutions in sectors such as Finance, Industry, and Automation. Strong academic foundation with a Bachelor's degree in Computer Science from Universidade do Vale do Rio dos Sinos (UNISINOS).</p>
+            <p *ngIf="language == 'pt'">Sou Desenvolvedor de Software Sênior com mais de 13 anos de experiência atuando em diversas áreas como Financeira, Industrial e de Automação. Sou Bacharel em Ciência da Computação pela Universidade do Vale do Rio dos Sinos (UNISINOS).</p>
+        </div>
+        <div class="buttons">
+            <img class="buttonImage" (click)="openLinkedin()" src="/images/social/linkedin.png" alt="Linkedin">
+            <img class="buttonImage" (click)="openGithub()" src="/images/social/github.png" alt="Github">
+            <img class="buttonImage" (click)="openInstagram()" src="/images/social/instagram.png" alt="Instagram">
+            <img class="buttonImage" (click)="openEmail()" src="/images/social/email.png" alt="Instagram">
+        </div>
+    </div>
+    <div class="rightContent">
+        <img src="/images/home/profile.png" alt="Profile" class="profileImage" />
+    </div>
+</div>
+
+<div class="content">
+    <div id="listOfProjectsBackground">
+        <div id="listOfProjects">
+            <div style="margin-left: 0vw;" class="project">
+                <img src="/images/projects/paranoia-white.png" alt="Paranoia" class="projectImage">
+            </div>
+            <div class="project">
+                <img src="/images/projects/greengoblin.png" alt="Project Green Goblin" class="projectImage">
+            </div>
+            <div class="project">
+                <img src="/images/projects/escrevo.png" alt="Deu Critico" class="projectImage">
+            </div>
+            <div style="margin-right: 0vw;" class="project">
+                <img src="/images/projects/deucritico.png" alt="Deu Critico" class="projectImage">
+            </div>
+        </div>
+    </div>
+</div>
