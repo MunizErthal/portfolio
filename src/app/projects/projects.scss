@@ -1,0 +1,55 @@
+.slide-up {
+    position: relative;
+    transform: translateY(55vh);
+    animation: slideUpToTop 1s forwards;
+}
+
+@keyframes slideUpToTop {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes reduceImage {
+    to {
+        width: 10vw;
+    }
+}
+
+.content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#listOfProjectsBackground {
+    background-color: black;
+    padding-left: 9vw;
+    padding-right: 9vw;
+}
+
+#listOfProjects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: auto;
+}
+
+.project {
+    margin: auto;
+}
+
+.projectImage {
+    width: 18vw;
+    height: auto;
+    margin: auto;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: reduceImage 1s forwards;
+}
+
+.projectImage:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}

@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { LanguageService } from '../../services/language.service';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule],
+  imports: [CommonModule, TranslatePipe],
   templateUrl: './home.html',
   styleUrl: './home.scss'
 })
@@ -14,7 +15,8 @@ export class Home {
   language: string = 'en';  // en ou pt
   mobileMenu = false;
 
-  constructor(private route: ActivatedRoute,
+  constructor(private router: Router,
+              private route: ActivatedRoute,
               private languageService: LanguageService) {
     this.subscribeToLanguageChanges();
     this.verificarMobile();
@@ -46,6 +48,10 @@ export class Home {
     ) {
       this.mobileMenu = true;
     }
+  }
+
+  toProject(project: string) {
+    this.router.navigate(['/projects'], { queryParams: { language: this.language, project: project } });
   }
 
   openLinkedin() {

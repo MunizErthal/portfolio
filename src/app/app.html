@@ -1,11 +1,11 @@
-<header class="main-header">
+<header class="main-header fade-in">
     <div class="logo" (click)="toHome()">Fernando Muniz Erthal</div>
     <nav>
         <ul class="menu">
-            <li><a (click)="toHome()">{{language == 'en' ? 'Home' : 'Início'}}</a></li>
-            <li><a (click)="toAbout()">{{language == 'en' ? 'About' : 'Sobre'}}</a></li>
-            <li><a (click)="toProjects()">{{language == 'en' ? 'Personal Projects' : 'Projetos Pessoais'}}</a></li>
-            <li><a (click)="toExperiences()">{{language == 'en' ? 'Professional Experiences' : 'Experiências Profissionais'}}</a></li>
+            <li><a (click)="toHome()">{{ 'HOME' | translate:'header' }}</a></li>
+            <li><a (click)="toAbout()">{{ 'ABOUT' | translate:'header' }}</a></li>
+            <li><a (click)="toProjects()">{{ 'PROJECTS' | translate:'header' }}</a></li>
+            <li><a (click)="toExperiences()">{{ 'EXPERIENCE' | translate:'header' }}</a></li>
 
             <li><img (click)="changeLanguage()" [src]="'images/flag/' + (language == 'en' ? 'pt' : 'en') + '.png'" style="margin: auto; margin-right: -0.5vw; width: 1.5vw; height: auto;"></li>
         </ul>

@@ -1,17 +1,14 @@
-import { CommonModule } from '@angular/common';
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { ActivatedRoute, Router, RouterOutlet } from '@angular/router';
-import { LanguageService } from '../services/language.service';
-import { TranslatePipe } from '../pipes/translate.pipe';
+import { LanguageService } from '../../services/language.service';
 
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet, CommonModule, TranslatePipe],
-  templateUrl: './app.html',
-  styleUrl: './app.scss'
+  selector: 'app-projects',
+  imports: [RouterOutlet],
+  templateUrl: './projects.html',
+  styleUrl: './projects.scss'
 })
-export class App {
-  protected readonly title = signal('Fernando Muniz Erthal');
+export class Projects {
 
   language: string = 'en';  // en ou pt
   mobileMenu = false;
@@ -20,6 +17,7 @@ export class App {
               private route: ActivatedRoute,
               private languageService: LanguageService) {
     this.verificarMobile();
+    this.loadProject();
     this.loadLanguage();
   }
 
@@ -34,6 +32,16 @@ export class App {
     ) {
       this.mobileMenu = true;
     }
+  }
+
+  loadProject() {
+    this.route.queryParams.subscribe(params => {
+      var projectParam = params['project'];
+      if (projectParam) {
+        var projectName = projectParam == '' ? 'paranoia' : projectParam;
+        this.changeProject(projectName);
+      }
+    });
   }
 
   loadLanguage() {
@@ -51,19 +59,7 @@ export class App {
     this.languageService.setLanguage(this.language);
   }
 
-  toHome() {
-    this.router.navigate(['/'], { queryParams: { language: this.language } });
-  }
-
-  toAbout() {
-    this.router.navigate(['/about'], { queryParams: { language: this.language } });
-  }
-
-  toProjects() {
-    this.router.navigate(['/projects'], { queryParams: { language: this.language } });
-  }
-
-  toExperiences() {
-    this.router.navigate(['/experiences'], { queryParams: { language: this.language } });
+  changeProject(projectName: string) {
+      this.router.navigate([projectName], { relativeTo: this.route });
   }
 }

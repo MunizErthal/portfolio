@@ -1,0 +1,20 @@
+<div class="content slide-up">
+    <div id="listOfProjectsBackground">
+        <div id="listOfProjects">
+            <div style="margin-left: 0vw;" class="project">
+                <img (click)="changeProject('paranoia')" src="/images/projects/paranoia-white.png" alt="Paranoia" class="projectImage">
+            </div>
+            <div class="project">
+                <img (click)="changeProject('greengoblin')" src="/images/projects/greengoblin.png" alt="Project Green Goblin" class="projectImage">
+            </div>
+            <div class="project">
+                <img (click)="changeProject('escrevo')" src="/images/projects/escrevo.png" alt="Deu Critico" class="projectImage">
+            </div>
+            <div style="margin-right: 0vw;" class="project">
+                <img (click)="changeProject('deucritico')" src="/images/projects/deucritico.png" alt="Deu Critico" class="projectImage">
+            </div>
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
