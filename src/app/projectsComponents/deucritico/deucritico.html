@@ -1,10 +1,305 @@
 <div class="content fade-in">
     <div class="logo">
-        <img src="/images/projects/deucritico.png" alt="Deu Crítico Logo">        
+        <img src="/images/projects/deucritico.png" alt="Deu Crítico Logo">
     </div>
 
-    <div class="title">
-        <h1>Deu Crítico</h1>
+    <div class="tech-stack">
+        <ul>
+            <li><img src="/images/techs/angular.png" alt="Angular"></li>
+            <li><img src="/images/techs/ts.png" alt="TypeScript"></li>
+            <li><img src="/images/techs/nodejs.png" alt="NodeJs"></li>
+            <li><img src="/images/techs/socketio.png" alt="Socket.io"></li>
+            <li><img src="/images/techs/firebase.png" alt="Firebase"></li>
+            <li><img src="/images/techs/html.png" alt="HTML 5"></li>
+            <li><img src="/images/techs/css.png" alt="CSS 3"></li>
+        </ul>
+    </div>
 
+    <div class="content-info">
+        <div class="content-left-text">
+            <div class="sub-title">
+                <h1>Resumo</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Deu Critico foi um projeto de TableTop para jogos de RPG criado por mim em 2019. 
+                </p>
+                <p>
+                    A ideia original era desenvolver um produto gratuito e de fácil uso para concorrer com outras plataformas que tinham o uso complexo.
+                </p>
+                <p>
+                    Além disso, foi usado para aperfeiçoar minhas habilidades com <b>front-end</b>, e suas integrações com um  <b>back-end</b> implementado com <b>NodeJs</b>.
+                </p>
+                <p>
+                    Eu quis escolher um projeto complexo, que fosse alinhar um grande desafio, o uso de várias tecnologias, com muita integração entre serviços e ao mesmo tempo, diversão.
+                </p>
+                <p>
+                    Eu como jogador de RPG, via na ferramenta uma grande oportunidade para crescer profissionalmente, ao mesmo tempo em que desenvolvia uma solução robusta para os problemas que eu encontrava em plataformas que tinham o mesmo papel.
+                </p>
+            </div>
+        </div>
+        <div class="content-right-image">
+            <div class="single-image">
+                <img src="/images/projects/prints/deucritico/mesa1.png" alt="Deu Crítico Print"> 
+            </div> 
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-left-image">
+            <div class="single-image">
+                <img src="/images/projects/prints/deucritico/menus.png" alt="Deu Crítico Print"> 
+            </div> 
+        </div>
+        <div class="content-right-text">
+            <div class="sub-title">
+                <h1>Funcionamento</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Os usuários faziam seu cadastro através do site, ou pela integração com suas contas da Google.
+                </p>
+                <p>
+                    Uma vez cadastrados, os usuários teriam como criar suas salas de jogos, onde poderiam convidar outros jogadores para participar.
+                </p>
+                <p>
+                    O convite era enviado por <b>Socket.io</b> para o jogador, que receberia uma notificação em tempo real.
+                </p>
+                <p>
+                    Após aceitar o convite, o jogador deveria criar seu personagem, e então, poderia entrar na sala
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-full">
+            <div class="sub-title">
+                <h1>Tecnologias e Implementação</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    O projeto foi desenvolvido com <b>Angular 9</b> e <b>TypeScript</b>, utilizando <b>HTML</b> e <b>CSS</b> para a construção do front-end.
+                </p>
+                <p>
+                    Para armazenar informações dos jogadores e da mesa, foi escolhido o <b>Firebase</b> como banco de dados, uma vez que isso agilizaria a implementação de um backend para CRUD, sistema de autenticação e funcionalidades mais simples.
+                </p>
+                <p>
+                    Para implementar a comunicação entre multiplos clientes acessando um jogo, foi feito uso de <b>Socket.io</b> onde o backend do servidor foi implementado com <b>NodeJs</b> e <b>Express</b>.
+                </p>
+                <p>
+                    Além disso, o projeto foi hospedado no <b>Google Cloud Platform</b>, e o server na <b>AWS</b>.
+                </p>
+                <p>
+                    Para o componente gráfico, foi utilizado a biblioteca <b>Fabric.js</b> e customizado cada um de seus recursos para atender as necessidades do projeto.
+                </p>
+                <p>
+                    Outra integração foi com o <b>Imgur</b> para um serviço de biblioteca de imagens para os usuários utilizarem durante as partidas.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-list">
+            <div class="sub-title">
+                <h1>Recursos Do Table Top</h1>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>Compartilhamento da mesa em tempo real</li>
+                    <li>Sistema de Revelar para mapa e tokens separadamente, utilizando ferramentas de Bézier</li>
+                    <li>Rolagem de dados de RPG, acumulada ou individual e em quantidade (D2, D4, D6, D8, D10, D12, D20, D100)</li>
+                    <li>Inventário individual para jogadores, com ações de receber e enviar itens</li>
+                    <li>Compartilhamento e gerenciamento de sons de fundo e efeito individual</li>
+                    <li>Chat em Vídeo chamada com funções para especificar ouvintes</li>
+                    <li>Régua em pixel e cadastro de distância para uso na mesa</li>
+                    <li>Carregamento de mapas estáticos e animados</li>
+                    <li>Compartilhamento de imagens entre jogadores</li>
+                    <li>Integração com Imgur, ou uso de links para cadastro e gerenciamento de imagens para uso nas mesas</li>
+                    <li>Camadas entre objetos da mesa</li>
+                    <li>Tokens informativos para status dos jogadores da mesa</li>
+                    <li>Ping em mapa entre jogadores</li>
+                    <li>Redirecionar câmera da mesa para o foco desejado pelo administrador</li>
+                    <li>Ícones para tokens</li>
+                    <li>Duplicar objetos da mesa</li>
+                    <li>Grade para a mesa</li>
+                    <li>Pincel e desenho de formas com controle de tamanho do pincel</li>
+                    <li>Deletar objetos com diversas opções</li>
+                    <li>Vida com barra para tokens</li>
+                    <li>Lista de tokens na cena</li>
+                    <li>Sistema de Toast Messages com implementação sem bibliotecas externas</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-left-text">
+            <div class="sub-title">
+                <h1>Compartilhamento da mesa em tempo real, Sistema de Revelar para mapa e tokens utilizando ferramentas de Bézier e Chat em Vídeo</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Multiplos usuários recebem em tempo real as atualizações da mesa realizadas pelo administrador da sala.
+                </p>
+                <p>
+                    Uma dessas ferramentas de compartilhamento possíveis é o sistema de revelação, onde o administrador pode revelar partes específicas do mapa ou tokens, utilizando ferramentas de Bézier ou através dos próprios objetos da mesa.
+                </p>
+                <p>
+                    Outra feature importante é o chat em vídeo, onde os jogadores podem interagir uns com os outros, e ainda contam com a possibilidade de restringir aqueles que podem ouvir, aumentando assim as possibilidades de cenários durante as partidas.
+                </p>
+            </div>
+        </div>
+        <div class="content-right-image">
+            <div class="single-video">
+                <video src="/images/projects/videos/deuCritico/revelar.mp4" autoplay loop muted playsinline></video>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-left-text">
+            <div class="sub-title">
+                <h1>Rolagem de dados de RPG, acumulada ou individual e em quantidade (D2, D4, D6, D8, D10, D12, D20, D100)</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    O sistema de rolagem de dados permite que os jogadores façam rolagens individuais ou acumuladas, com a possibilidade de escolher a quantidade e o tipo de dado.
+                </p>
+                <p>
+                    As rolagens de dados são feitas em tempo real, e os resultados são compartilhados entre todos os jogadores da mesa.
+                </p>
+            </div>
+        </div>
+        <div class="content-right-image">
+            <div class="single-image">
+                <img src="/images/projects/prints/deucritico/rolagemDeDadosCompleta.png" alt="Deu Crítico Print"> 
+            </div> 
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-left-text">
+            <div class="sub-title">
+                <h1>Carregamento de mapas estáticos e animados, e Sistema de pincel e desenho de formas com controle de tamanho do pincel</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Os mapas upados pelos usuários podem ser estáticos ou animados, e são carregados na mesa de jogo e apresentados para todos os jogadores.
+                </p>
+                <p>
+                    Estes mapas podem, por exemplo, serem simples links de mapas upados em sistemas de hospedagem de imagens, ou até mesmo sistema de armazenamento em núvem, como Dropbox.
+                </p>
+                <p>
+                    Além disso, os usuários podem desenhar livremente pela cena inteira, o que é compartilhado entre os jogadores.
+                </p>
+            </div>
+        </div>
+        <div class="content-right-image">
+            <div class="single-video">
+                <video src="/images/projects/videos/deuCritico/mapaAnimado.mp4" autoplay loop muted playsinline></video>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-left-text">
+            <div class="sub-title">
+                <h1>Inventário individual para jogadores e Compartilhamento de imagens</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Cada jogador tem seu próprio inventário, onde pode armazenar itens e compartilhá-los com outros jogadores, estes podem ainda ser separados por tipos criados pelo próprio administrador.
+                </p>
+                <p>
+                    É através do inventário que os jogadores podem enviar e receber itens entre si, facilitando a troca de recursos durante o jogo.
+                </p>
+                <p>
+                    Pelo inventário é também onde o administrador pode enviar itens para os jogadores, como recompensas ou equipamentos, e compartilhar imagens para serem exibidas na mesa.
+                </p>
+                <p>
+                    O inventário é uma ferramenta essencial para a dinâmica do jogo, permitindo que os jogadores gerenciem seus recursos de forma eficiente, e vejam informações de cada um dos itens que estão carregando.
+                </p>
+            </div>
+        </div>
+        <div class="content-right-image">
+            <div class="single-image">
+                <img src="/images/projects/prints/deucritico/inventarioFinal.png" alt="Deu Crítico Print"> 
+            </div> 
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-left-text">
+            <div class="sub-title">
+                <h1>Compartilhamento e gerenciamento de sons de fundo e efeito individual</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Através do sistema de sons, o administrador pode compartilhar sons de fundo e efeitos sonoros, que são reproduzidos em tempo real para todos os jogadores da mesa.
+                </p>
+                <p>
+                    Os sons podem são cadastrados através de links de áudios hospedados em serviços como o <b>SoundCloud</b>, ou até mesmo links diretos de arquivos de áudio e usados durante todo o jogo.
+                </p>
+                <p>
+                    O administrador pode controlar o volume dos sons individualmente, permitindo assim ajustar a experiência de áudio de acordo com sua preferência.
+                </p>
+                <p>
+                    Além de incluir a opção de som em loop, para criar sons de fundo contínuos, ou sons de efeitos que podem ser acionados em momentos específicos do jogo.
+                </p>
+            </div>
+        </div>
+        <div class="content-right-image">
+            <div class="single-image mini">
+                <img src="/images/projects/prints/deucritico/sistemaDeSons.png" alt="Deu Crítico Print"> 
+            </div> 
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-left-text">
+            <div class="sub-title">
+                <h1>Régua em pixel, Ícones para tokens e Camadas entre objetos da mesa</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Ao utilizar a régua na mesa, o administrador pode compartilhar com os jogadores a distância entre pontos especificos.
+                </p>
+                <p>
+                    Através dos ícones o administrador da mesa cosnegue deixar marcações individuais para seus tokens.
+                </p>
+                <p>
+                    Com o sistema de camadas o administrador consegue organizar em níveis os objetos da mesa.
+                </p>
+            </div>
+        </div>
+        <div class="content-right-image">
+            <div class="single-image">
+                <img src="/images/projects/prints/deucritico/icones-camadas-regua.png" alt="Deu Crítico Print"> 
+            </div> 
+        </div>
+    </div>
+
+    <div class="content-info">
+        <div class="content-full">
+            <div class="sub-title">
+                <h1>Aprendizados</h1>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Com este projeto pude aperfeiçoar meu conhecimento com <b>Angular</b>, <b>NodeJS</b> e <b>Front-end</b> de modo geral.
+                </p>
+                <p>
+                    Além de ter sido excelente poder trabalhar com novas tecnologias como <b>FabricJS</b>, <b>Socket.io</b> e <b>Firebase</b>.
+                </p>
+                <p>
+                    Hoje o <b>Deu Crítico</b> está com o desenvolvimento parado devido ao foco em outros projetos.
+                </p>
+                <p>
+                    Certamente sou um profissional mais completo hoje, o que me permitiria desenvolver esta solução de forma ainda mais completa. Utilizando novos recursos e implementando ainda mais features.
+                </p>
+            </div>
+        </div>
     </div>
 </div>

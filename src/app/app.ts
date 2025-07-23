@@ -60,7 +60,7 @@ export class App {
   }
 
   toProjects() {
-    this.router.navigate(['/projects'], { queryParams: { language: this.language } });
+    this.router.navigate(['/projects'], { queryParams: { language: this.language, project: 'paranoia' } });
   }
 
   toExperiences() {

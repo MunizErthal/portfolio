@@ -1,15 +1,28 @@
 .main-header {
+    position: fixed;
     display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 32px;
     font-family: "EB Garamond", serif;
     font-weight: bold;
+    height: 3vw;
+    background-color: #f0f0f0;
+
+    nav {
+        margin: auto;
+        margin-right: 1.5vw;
+    }
 
     .logo {
         cursor: pointer;
-        font-size: 1.5rem;
+        font-size: 1.3vw;
         font-weight: bold;
+        margin: auto;
+        margin-left: 1vw;
     }
 
     .menu {
@@ -21,12 +34,13 @@
 
         li {
             cursor: pointer;
+            margin: auto;
             a {
                 text-decoration: none;
                 color: #333;
                 font-weight: bold;
                 font-family: inherit;
-                font-size: 1rem;
+                font-size: 0.8vw;
             }
         }
     }
