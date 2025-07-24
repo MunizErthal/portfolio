@@ -1,9 +1,9 @@
-<div class="content fade-in">
-    <div class="logo">
+<div [class]="mobileMenu ? 'mobile-content fade-in' : 'content fade-in'">
+    <div [class]="mobileMenu ? 'mobile-logo' : 'logo'">
         <img src="/images/projects/deucritico.png" alt="Deu Crítico Logo">
     </div>
 
-    <div class="tech-stack">
+    <div [class]="mobileMenu ? 'mobile-tech-stack' : 'tech-stack'">
         <ul>
             <li><img src="/images/techs/angular.png" alt="Angular"></li>
             <li><img src="/images/techs/ts.png" alt="TypeScript"></li>
@@ -15,12 +15,12 @@
         </ul>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Resumo</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Deu Critico foi um projeto de TableTop para jogos de RPG criado por mim em 2019. 
                 </p>
@@ -38,24 +38,24 @@
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-image">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-image' : 'single-image'">
                 <img src="/images/projects/prints/deucritico/mesa1.png" alt="Deu Crítico Print"> 
             </div> 
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-image">
-            <div class="single-image">
+    <div [class]="mobileMenu ? 'mobile-content-info reverse' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-image' : 'content-left-image'">
+            <div [class]="mobileMenu ? 'mobile-single-image' : 'single-image'">
                 <img src="/images/projects/prints/deucritico/menus.png" alt="Deu Crítico Print"> 
             </div> 
         </div>
-        <div class="content-right-text">
-            <div class="sub-title">
+        <div [class]="mobileMenu ? 'mobile-content-right-text' : 'content-right-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Funcionamento</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Os usuários faziam seu cadastro através do site, ou pela integração com suas contas da Google.
                 </p>
@@ -72,12 +72,12 @@
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-full">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Tecnologias e Implementação</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     O projeto foi desenvolvido com <b>Angular 9</b> e <b>TypeScript</b>, utilizando <b>HTML</b> e <b>CSS</b> para a construção do front-end.
                 </p>
@@ -100,12 +100,12 @@
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-list">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-list' : 'content-list'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Recursos Do Table Top</h1>
             </div>
-            <div class="list">
+            <div [class]="mobileMenu ? 'mobile-list' : 'list'">
                 <ul>
                     <li>Compartilhamento da mesa em tempo real</li>
                     <li>Sistema de Revelar para mapa e tokens separadamente, utilizando ferramentas de Bézier</li>
@@ -134,12 +134,12 @@
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Compartilhamento da mesa em tempo real, Sistema de Revelar para mapa e tokens utilizando ferramentas de Bézier e Chat em Vídeo</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Multiplos usuários recebem em tempo real as atualizações da mesa realizadas pelo administrador da sala.
                 </p>
@@ -151,19 +151,19 @@
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-video">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video' : 'single-video'">
                 <video src="/images/projects/videos/deuCritico/revelar.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Rolagem de dados de RPG, acumulada ou individual e em quantidade (D2, D4, D6, D8, D10, D12, D20, D100)</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     O sistema de rolagem de dados permite que os jogadores façam rolagens individuais ou acumuladas, com a possibilidade de escolher a quantidade e o tipo de dado.
                 </p>
@@ -172,19 +172,19 @@
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-image">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-image' : 'single-image'">
                 <img src="/images/projects/prints/deucritico/rolagemDeDadosCompleta.png" alt="Deu Crítico Print"> 
             </div> 
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Carregamento de mapas estáticos e animados, e Sistema de pincel e desenho de formas com controle de tamanho do pincel</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Os mapas upados pelos usuários podem ser estáticos ou animados, e são carregados na mesa de jogo e apresentados para todos os jogadores.
                 </p>
@@ -196,19 +196,19 @@
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-video">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video' : 'single-video'">
                 <video src="/images/projects/videos/deuCritico/mapaAnimado.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Inventário individual para jogadores e Compartilhamento de imagens</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Cada jogador tem seu próprio inventário, onde pode armazenar itens e compartilhá-los com outros jogadores, estes podem ainda ser separados por tipos criados pelo próprio administrador.
                 </p>
@@ -223,19 +223,19 @@
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-image">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-image' : 'single-image'">
                 <img src="/images/projects/prints/deucritico/inventarioFinal.png" alt="Deu Crítico Print"> 
             </div> 
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Compartilhamento e gerenciamento de sons de fundo e efeito individual</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Através do sistema de sons, o administrador pode compartilhar sons de fundo e efeitos sonoros, que são reproduzidos em tempo real para todos os jogadores da mesa.
                 </p>
@@ -250,19 +250,19 @@
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-image mini">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-image mobile-mini' : 'single-image mini'">
                 <img src="/images/projects/prints/deucritico/sistemaDeSons.png" alt="Deu Crítico Print"> 
             </div> 
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Régua em pixel, Ícones para tokens e Camadas entre objetos da mesa</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Ao utilizar a régua na mesa, o administrador pode compartilhar com os jogadores a distância entre pontos especificos.
                 </p>
@@ -274,19 +274,19 @@
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-image">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-image' : 'single-image'">
                 <img src="/images/projects/prints/deucritico/icones-camadas-regua.png" alt="Deu Crítico Print"> 
             </div> 
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-full">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Aprendizados</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Com este projeto pude aperfeiçoar meu conhecimento com <b>Angular</b>, <b>NodeJS</b> e <b>Front-end</b> de modo geral.
                 </p>

@@ -8,7 +8,7 @@ import { TranslatePipe } from '../../pipes/translate.pipe';
   selector: 'app-home',
   imports: [CommonModule, TranslatePipe],
   templateUrl: './home.html',
-  styleUrl: './home.scss'
+  styleUrls: ['./home.scss', './home-mobile.scss'],
 })
 export class Home {
 
@@ -19,7 +19,7 @@ export class Home {
               private route: ActivatedRoute,
               private languageService: LanguageService) {
     this.subscribeToLanguageChanges();
-    this.verificarMobile();
+    this.verifyMobile();
     this.loadLanguage();
   }
 
@@ -37,7 +37,7 @@ export class Home {
     });
   }
 
-  verificarMobile() {
+  verifyMobile() {
     if (navigator.userAgent.match(/Android/i)
       || navigator.userAgent.match(/webOS/i)
       || navigator.userAgent.match(/iPhone/i)

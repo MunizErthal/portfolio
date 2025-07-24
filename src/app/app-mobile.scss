@@ -1,0 +1,28 @@
+.mobile-main-header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "EB Garamond", serif;
+    font-weight: bold;
+    height: 10vw;
+    background-color: #f0f0f0;
+
+    nav {
+        margin: auto;
+        margin-right: 1.5vw;
+    }
+
+    .mobile-logo {
+        cursor: pointer;
+        font-size: 5vw;
+        font-weight: bold;
+        margin: auto;
+        margin-left: 2vw;
+    }
+
+}

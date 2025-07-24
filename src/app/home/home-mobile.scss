@@ -1,92 +1,93 @@
-.homeContainer {
+.mobile-homeContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-between;
     padding: 4vw;
     background-color: #f0f0f0;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
 }
 
-.leftContent {
-    width: 40vw;
+.mobile-leftContent {
+    width: 100vw;
     float: left;
     padding-top: 2vw;
     margin-left: 5vw;
 }
 
-.rightContent {
-    width: 60vw;
+.mobile-rightContent {
+    width: 100vw;
     float: right;
     padding: 2vw;
 }
 
-.title {
-    font-size: 3.8vw;
+.mobile-title {
+    font-size: 8vw;
     font-weight: bold;
     margin-bottom: 10px;
     font-family: "EB Garamond", serif;
 }
 
-.subtitle {
-    font-size: 1vw;
-    margin-top: -1vw;
+.mobile-subtitle {
+    font-size: 4vw;
+    margin-top: -4vw;
+    width: 79vw;
     font-family: "Quicksand", sans-serif;
 }
 
-.description {
-    font-size: 0.9vw;
+.mobile-description {
+    font-size: 3vw;
     color: #666;
     font-family: "Quicksand", sans-serif;
     margin-top: 1.5vw;
     text-align: justify;
-    width: 37vw;
+    width: 79vw;
 }
 
-.buttons {
+.mobile-buttons {
     display: flex;
     margin-top: 2vw;
 }
 
-.buttonImage {
-    width: 2vw;
+.mobile-buttonImage {
+    width: 8vw;
     height: auto;
-    margin-right: 1vw;
+    margin-right: 3vw;
     cursor: pointer;
 }
 
-.rightContent {
+.mobile-rightContent {
     position: relative;
-    width: 17vw;
-    height: 17vw;
+    width: 40vw;
+    height: 40vw;
     border-radius: 60% 40% 40% 60% / 50% 50% 50% 50%; // forma orgânica
     overflow: hidden;
     background-color: #f9f9f9;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     margin: auto;
-    margin-right: 5vw;
 }
 
-.profileImage {
-    width: 35vw;
+.mobile-profileImage {
+    width: 65vw;
     height: auto;
     object-fit: cover;
-    margin-top: -19vw;
-    margin-left: -9vw;
+    margin-top: -30vw;
+    margin-left: -11vw;
 }
 
-.content {
+.mobile-content {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vw;
 }
 
-.listOfProjectsBackground {
+.mobile-listOfProjectsBackground {
     background-color: black;
-    padding-left: 9vw;
-    padding-right: 9vw;
+    padding-left: 2vw;
 }
 
-.listOfProjects {
+.mobile-listOfProjects {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -94,18 +95,13 @@
     width: auto;
 }
 
-.project {
+.mobile-project {
     margin: auto;
 }
 
-.projectImage {
-    width: 18vw;
+.mobile-projectImage {
+    width: 25vw;
     height: auto;
     margin: auto;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.projectImage:hover {
-    transform: scale(1.08);
-    cursor: pointer;
 }

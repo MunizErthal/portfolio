@@ -8,7 +8,7 @@ import { TranslatePipe } from '../pipes/translate.pipe';
   selector: 'app-root',
   imports: [RouterOutlet, CommonModule, TranslatePipe],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrls: ['./app.scss', './app-mobile.scss']
 })
 export class App {
   protected readonly title = signal('Fernando Muniz Erthal');
@@ -19,11 +19,11 @@ export class App {
   constructor(private router: Router,
               private route: ActivatedRoute,
               private languageService: LanguageService) {
-    this.verificarMobile();
+    this.verifyMobile();
     this.loadLanguage();
   }
 
-  verificarMobile() {
+  verifyMobile() {
     if (navigator.userAgent.match(/Android/i)
       || navigator.userAgent.match(/webOS/i)
       || navigator.userAgent.match(/iPhone/i)

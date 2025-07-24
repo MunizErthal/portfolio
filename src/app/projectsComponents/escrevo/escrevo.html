@@ -1,8 +1,8 @@
-<div class="content fade-in">
-    <div class="logo">
+<div [class]="mobileMenu ? 'mobile-content fade-in' : 'content fade-in'">
+    <div [class]="mobileMenu ? 'mobile-logo' : 'logo'">
         <img src="/images/projects/escrevo.png" alt="Escrevo Logo">        
     </div>
-    <div class="tech-stack">
+    <div [class]="mobileMenu ? 'mobile-tech-stack' : 'tech-stack'">
         <ul>
             <li><img src="/images/techs/angular.png" alt="Angular"></li>
             <li><img src="/images/techs/ts.png" alt="TypeScript"></li>
@@ -12,12 +12,12 @@
         </ul>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Resumo</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Meu site de contos foi desenvolvido em 2021 com a ideia de um local publico para compartilhar minhas histórias.
                 </p>
@@ -35,23 +35,23 @@
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-video">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video' : 'single-video'">
                 <video src="/images/projects/videos/escrevo/home.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
-    <div class="content-info">
-        <div class="content-left-image">
-            <div class="single-video">
+    <div [class]="mobileMenu ? 'mobile-content-info reverse' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-image' : 'content-left-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video' : 'single-video'">
                 <video src="/images/projects/videos/escrevo/leitura.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
-        <div class="content-right-text">
-            <div class="sub-title">
+        <div [class]="mobileMenu ? 'mobile-content-right-text' : 'content-right-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Funcionamento</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Os usuários podem acessar o site e lerem qualquer história publicada.
                 </p>
@@ -68,12 +68,12 @@
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-full">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Tecnologias e Implementação</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     O projeto foi desenvolvido com <b>Angular 9</b> e <b>TypeScript</b>, utilizando <b>HTML</b> e <b>CSS</b> para a construção de um front-end responsivo.
                 </p>
@@ -90,12 +90,12 @@
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-list">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-list' : 'content-list'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Recursos</h1>
             </div>
-            <div class="list">
+            <div [class]="mobileMenu ? 'mobile-list' : 'list'">
                 <ul>
                     <li>Leitura dos contos publicados</li>
                     <li>Layout responsivo para leitura em smartphones</li>
@@ -114,123 +114,123 @@
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Layout responsivo para leitura em smartphones</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Um dos focos aqui era criar um layout responsivo para uma leitura agradável a partir de dispositivos móveis.
                 </p>
             </div>
         </div>
-        <div class="content-right-image" style="display: flex;">
-            <div class="single-video mobile" style="margin-right: 1vw;">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'" style="display: flex;">
+            <div [class]="mobileMenu ? 'mobile-single-video mobile-mobile' : 'single-video mobile'" style="margin-right: 1vw;">
                 <video src="/images/projects/videos/escrevo/smartphone.mp4" autoplay loop muted playsinline></video>
             </div>
-            <div class="single-video mobile" style="margin-left: 1vw;">
+            <div [class]="mobileMenu ? 'mobile-single-video mobile-mobile' : 'single-video mobile'" style="margin-left: 1vw;">
                 <video src="/images/projects/videos/escrevo/smartphone2.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Pesquisa por título, gênero e tags</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Um dos recursos que eu desejava era a facilidade em encontrar as histórias, ou navegar de acordo com genêros ou tags relacionadas.
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-video mobile">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video mobile-mobile' : 'single-video mobile'">
                 <video src="/images/projects/videos/escrevo/search.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Modos de leitura Dark Mode e Light Mode e Barra de progresso da leitura</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     O modo de leitura também era algo muito importante pra mim, uma vez que vários dos sites de publicação que eu encontrei não tinham nem mesmo este recurso.
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-video">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video' : 'single-video'">
                 <video src="/images/projects/videos/escrevo/leitura.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Controle do tamanho da fonte na leitura</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Controlar o tamanho da fonte para facilitar a leitura de usuários que poderiam ter problema com o tamanho da fonte.
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-video mobile">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video mobile-mobile' : 'single-video mobile'">
                 <video src="/images/projects/videos/escrevo/smartphone2.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Seleção de trechos para compartilhamento e compartilhamento em diferentes formatos e com opções de artes</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     A ideia aqui era facilitar o compartilhamento das histórias, para que os usuários pudessem dar apoio na divulgação do trabalho.
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-video mobile">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video mobile-mobile' : 'single-video mobile'">
                 <video src="/images/projects/videos/escrevo/share.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-left-text">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>História com trechos com opção de tradução</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Incluir trechos de outros idiomas, permitindo uma leitura mais imersiva, mas, com a opção de tradução para o usuário que quer entender o que está sendo dito, seja em uma primeira leitura ou para leituras posteriores.
                 </p>
             </div>
         </div>
-        <div class="content-right-image">
-            <div class="single-video mobile">
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video mobile-mobile' : 'single-video mobile'">
                 <video src="/images/projects/videos/escrevo/translate.mp4" autoplay loop muted playsinline></video>
             </div>
         </div>
     </div>
 
-    <div class="content-info">
-        <div class="content-full">
-            <div class="sub-title">
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
                 <h1>Aprendizados</h1>
             </div>
-            <div class="paragraph">
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
                 <p>
                     Com este projeto pude aperfeiçoar meu conhecimento com <b>Angular</b> e <b>Firebase</b>.
                 </p>

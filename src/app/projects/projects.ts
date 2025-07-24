@@ -6,7 +6,7 @@ import { LanguageService } from '../../services/language.service';
   selector: 'app-projects',
   imports: [RouterOutlet],
   templateUrl: './projects.html',
-  styleUrl: './projects.scss'
+  styleUrls: ['./projects.scss', './projects-mobile.scss']
 })
 export class Projects {
 
@@ -16,12 +16,12 @@ export class Projects {
   constructor(private router: Router,
               private route: ActivatedRoute,
               private languageService: LanguageService) {
-    this.verificarMobile();
+    this.verifyMobile();
     this.loadProject();
     this.loadLanguage();
   }
 
-  verificarMobile() {
+  verifyMobile() {
     if (navigator.userAgent.match(/Android/i)
       || navigator.userAgent.match(/webOS/i)
       || navigator.userAgent.match(/iPhone/i)
@@ -60,6 +60,6 @@ export class Projects {
   }
 
   changeProject(projectName: string) {
-      this.router.navigate([projectName], { relativeTo: this.route, queryParams: { language: this.language, mobileMenu: this.mobileMenu } });
+      this.router.navigate([projectName], { relativeTo: this.route, queryParams: { language: this.language } });
   }
 }

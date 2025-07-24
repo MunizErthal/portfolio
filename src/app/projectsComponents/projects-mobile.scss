@@ -1,6 +1,6 @@
 .mobile-content {
     background: #f0f0f0 !important;
-    margin-top: 6vw;
+    margin-top: 20vw;
     z-index: 800;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .mobile-logo img {
-    width: 90vw;
+    width: 80vw;
     height: auto;
     margin: auto;
 }
@@ -48,21 +48,21 @@
 }
 
 .mobile-content-left-text {
-    width: 85vw;
+    width: 80vw;
     margin: auto;   
     margin-left: 10vw;
 }
 
 .mobile-content-left-image {
-    width: 50vw;
+    width: 80vw;
     margin: auto;
-    margin-right: 0vw;
-    margin-left: 5vw;
 }
 
 .mobile-sub-title {
     font-family: "EB Garamond", serif;
     margin: auto;
+    font-size: 2.5vw;
+    margin-left: 0;
 }
 
 .mobile-content-left h1 {
@@ -78,19 +78,22 @@
 }
 
 .mobile-image-right {
-    width: 50vw;
+    width: 80vw;
     margin: auto;
     display: flex;
     margin-right: 10vw;
 }
 
 .mobile-content-right-text {
-    width: 40vw;
+    width: 80vw;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .mobile-content-right-image {
-    width: 90vw;
+    width: 100vw;
     height: auto;
 }
 
@@ -100,18 +103,18 @@
 
 .mobile-single-image img {
     height: auto;
-    width: 40vw;
+    width: 80vw;
     margin: auto;
 }
 
 .mobile-mini img {
     height: auto;
-    width: 20vw;
+    width: 60vw;
     margin: auto;
 }
 
 .mobile-content-full {
-    width: 50vw;
+    width: 80vw;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -125,10 +128,11 @@
 }
 
 .mobile-list {
-    font-size: 0.9vw;
+    font-size: 3vw;
     font-family: "Quicksand", sans-serif;
     text-align: justify;
     margin: auto;
+    margin-left: -2.5vw;
 }
 
 .mobile-list ul {
@@ -149,13 +153,17 @@
 }
 
 .mobile-single-video video {
-    width: 40vw;
+    width: 80vw;
     margin: auto;
     height: auto;
 }
 
 .mobile-mobile video {
-    width: 15vw;
+    width: 45vw;
     margin: auto;
     height: auto;
+}
+
+.reverse {
+    flex-direction: column-reverse;
 }

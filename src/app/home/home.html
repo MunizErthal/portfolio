@@ -1,40 +1,40 @@
-<div class="homeContainer fade-in">
-    <div class="leftContent">
-        <div id="title">
+<div [class]="mobileMenu ? 'mobile-homeContainer fade-in' : 'homeContainer fade-in'">
+    <div [class]="mobileMenu ? 'mobile-leftContent' : 'leftContent'">
+        <div [class]="mobileMenu ? 'mobile-title' : 'title'">
             <label>Fernando Muniz Erthal</label>
         </div>
-        <div id="subtitle">
+        <div [class]="mobileMenu ? 'mobile-subtitle' : 'subtitle'">
             <p>{{ 'SUBTITLE' | translate:'home' }}</p>
         </div>
-        <div id="description">
+        <div [class]="mobileMenu ? 'mobile-description' : 'description'">
             <p>{{ 'DESCRIPTION' | translate:'home' }}</p>
         </div>
-        <div class="buttons">
-            <img class="buttonImage" (click)="openLinkedin()" src="/images/social/linkedin.png" alt="Linkedin">
-            <img class="buttonImage" (click)="openGithub()" src="/images/social/github.png" alt="Github">
-            <img class="buttonImage" (click)="openInstagram()" src="/images/social/instagram.png" alt="Instagram">
-            <img class="buttonImage" (click)="openEmail()" src="/images/social/email.png" alt="Instagram">
+        <div [class]="mobileMenu ? 'mobile-buttons' : 'buttons'">
+            <img [class]="mobileMenu ? 'mobile-buttonImage' : 'buttonImage'" (click)="openLinkedin()" src="/images/social/linkedin.png" alt="Linkedin">
+            <img [class]="mobileMenu ? 'mobile-buttonImage' : 'buttonImage'" (click)="openGithub()" src="/images/social/github.png" alt="Github">
+            <img [class]="mobileMenu ? 'mobile-buttonImage' : 'buttonImage'" (click)="openInstagram()" src="/images/social/instagram.png" alt="Instagram">
+            <img [class]="mobileMenu ? 'mobile-buttonImage' : 'buttonImage'" (click)="openEmail()" src="/images/social/email.png" alt="Instagram">
         </div>
     </div>
-    <div class="rightContent">
-        <img src="/images/home/profile.png" alt="Profile" class="profileImage" />
+    <div [class]="mobileMenu ? 'mobile-rightContent' : 'rightContent'">
+        <img src="/images/home/profile.png" alt="Profile" [class]="mobileMenu ? 'mobile-profileImage' : 'profileImage'" />
     </div>
 </div>
 
-<div class="content fade-in">
-    <div id="listOfProjectsBackground">
-        <div id="listOfProjects">
-            <div style="margin-left: 0vw;" class="project">
-                <img (click)="toProject('paranoia')" src="/images/projects/paranoia-white.png" alt="Paranoia" class="projectImage">
+<div [class]="mobileMenu ? 'mobile-content fade-in' : 'content fade-in'">
+    <div [class]="mobileMenu ? 'mobile-listOfProjectsBackground' : 'listOfProjectsBackground'">
+        <div [class]="mobileMenu ? 'mobile-listOfProjects' : 'listOfProjects'">
+            <div style="margin-left: 0vw;" [class]="mobileMenu ? 'mobile-project' : 'project'">
+                <img (click)="toProject('paranoia')" src="/images/projects/paranoia-white.png" alt="Paranoia" [class]="mobileMenu ? 'mobile-projectImage' : 'projectImage'">
             </div>
-            <div class="project">
-                <img (click)="toProject('greengoblin')" src="/images/projects/greengoblin.png" alt="Project Green Goblin" class="projectImage">
+            <div [class]="mobileMenu ? 'mobile-project' : 'project'">
+                <img (click)="toProject('greengoblin')" src="/images/projects/greengoblin.png" alt="Project Green Goblin" [class]="mobileMenu ? 'mobile-projectImage' : 'projectImage'">
             </div>
-            <div class="project">
-                <img (click)="toProject('escrevo')" src="/images/projects/escrevo.png" alt="Deu Critico" class="projectImage">
+            <div [class]="mobileMenu ? 'mobile-project' : 'project'">
+                <img (click)="toProject('escrevo')" src="/images/projects/escrevo.png" alt="Deu Critico" [class]="mobileMenu ? 'mobile-projectImage' : 'projectImage'">
             </div>
-            <div style="margin-right: 0vw;" class="project">
-                <img (click)="toProject('deucritico')" src="/images/projects/deucritico.png" alt="Deu Critico" class="projectImage">
+            <div style="margin-right: 0vw;" [class]="mobileMenu ? 'mobile-project' : 'project'">
+                <img (click)="toProject('deucritico')" src="/images/projects/deucritico.png" alt="Deu Critico" [class]="mobileMenu ? 'mobile-projectImage' : 'projectImage'">
             </div>
         </div>
     </div>

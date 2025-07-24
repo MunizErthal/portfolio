@@ -1,6 +1,6 @@
-<header class="main-header fade-in">
-    <div class="logo" (click)="toHome()">Fernando Muniz Erthal</div>
-    <nav>
+<header [class]="mobileMenu ? 'mobile-main-header fade-in' : 'main-header fade-in'">
+    <div [class]="mobileMenu ? 'mobile-logo' : 'logo'" (click)="toHome()">Fernando Muniz Erthal</div>
+    <nav *ngIf="!mobileMenu">
         <ul class="menu">
             <li><a (click)="toHome()">{{ 'HOME' | translate:'header' }}</a></li>
             <li><a (click)="toAbout()">{{ 'ABOUT' | translate:'header' }}</a></li>
@@ -10,5 +10,9 @@
             <li><img (click)="changeLanguage()" [src]="'images/flag/' + (language == 'en' ? 'pt' : 'en') + '.png'" style="margin: auto; margin-right: -0.5vw; width: 1.5vw; height: auto;"></li>
         </ul>
     </nav>
+
+    <div *ngIf="mobileMenu">
+        <img (click)="changeLanguage()" [src]="'images/flag/' + (language == 'en' ? 'pt' : 'en') + '.png'" style="margin: auto; margin-top: 1vw; margin-right: 2vw; width: 7vw; height: auto;">
+    </div>
 </header>
 <router-outlet></router-outlet>

@@ -1,0 +1,46 @@
+.mobile-slide-up {
+    position: fixed;
+    transform: translateY(55vh);
+    animation: slideUpToTopMobile 1s forwards;
+}
+
+@keyframes slideUpToTopMobile {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes reduceImageMobile {
+    to {
+        width: 25vw;
+    }
+}
+
+.mobile-list-projects-background {
+    background-color: black;
+    padding-left: 2vw;
+}
+
+.mobile-content {
+    position: fixed;
+    top: 10vw;
+    left: 0;
+    z-index: 900;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vw;
+}
+
+.mobile-project {
+    margin: auto;
+}
+
+.mobile-projectImage {
+    width: 25vw;
+    height: auto;
+    margin: auto;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: reduceImageMobile 1s forwards;
+}
