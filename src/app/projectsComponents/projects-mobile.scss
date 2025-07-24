@@ -1,0 +1,161 @@
+.mobile-content {
+    background: #f0f0f0 !important;
+    margin-top: 6vw;
+    z-index: 800;
+}
+
+.mobile-logo {
+    display: flex;
+}
+
+.mobile-logo img {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+}
+
+.mobile-tech-stack {
+    width: 100vw;
+    display: flex;
+    margin-bottom: 5vw;
+}
+
+.mobile-tech-stack ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.mobile-tech-stack img {
+    width:  10vw;
+    height: auto;
+}
+
+
+.mobile-title h1 {
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    margin-top: 0vw;
+}
+
+.mobile-content-info {
+    display: flex;
+    margin: auto;
+    margin-bottom: 5vw;
+    flex-direction: column;
+}
+
+.mobile-content-left-text {
+    width: 85vw;
+    margin: auto;   
+    margin-left: 10vw;
+}
+
+.mobile-content-left-image {
+    width: 50vw;
+    margin: auto;
+    margin-right: 0vw;
+    margin-left: 5vw;
+}
+
+.mobile-sub-title {
+    font-family: "EB Garamond", serif;
+    margin: auto;
+}
+
+.mobile-content-left h1 {
+    font-size: 2vw;
+    margin-top: 0vw;
+}
+
+.mobile-paragraph {
+    font-size: 3vw;
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    margin: auto;
+}
+
+.mobile-image-right {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    margin-right: 10vw;
+}
+
+.mobile-content-right-text {
+    width: 40vw;
+    height: auto;
+}
+
+.mobile-content-right-image {
+    width: 90vw;
+    height: auto;
+}
+
+.mobile-single-image  {
+    display: flex;
+}
+
+.mobile-single-image img {
+    height: auto;
+    width: 40vw;
+    margin: auto;
+}
+
+.mobile-mini img {
+    height: auto;
+    width: 20vw;
+    margin: auto;
+}
+
+.mobile-content-full {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-content-list {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-list {
+    font-size: 0.9vw;
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    margin: auto;
+}
+
+.mobile-list ul {
+    column-count: 1;
+    padding-left: 1.5rem;
+}
+
+@media (min-width: 700px) {
+    .mobile-list ul {
+        column-count: 2;
+        column-gap: 11rem;
+    }
+}
+
+.mobile-single-video {
+    display: flex;
+    margin: auto;
+}
+
+.mobile-single-video video {
+    width: 40vw;
+    margin: auto;
+    height: auto;
+}
+
+.mobile-mobile video {
+    width: 15vw;
+    margin: auto;
+    height: auto;
+}

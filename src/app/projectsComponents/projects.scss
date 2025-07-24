@@ -144,10 +144,17 @@
 
 .single-video {
     display: flex;
+    margin: auto;
 }
 
 .single-video video {
     width: 40vw;
+    margin: auto;
+    height: auto;
+}
+
+.mobile video {
+    width: 15vw;
     margin: auto;
     height: auto;
 }

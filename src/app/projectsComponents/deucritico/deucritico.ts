@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-deucritico',
   imports: [],
   templateUrl: './deucritico.html',
-  styleUrls: ['./deucritico.scss', './../projects.scss']
+  styleUrls: ['./deucritico.scss', './../projects.scss', './../projects-mobile.scss'],
 })
 export class Deucritico {
 

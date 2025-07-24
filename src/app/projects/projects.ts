@@ -60,6 +60,6 @@ export class Projects {
   }
 
   changeProject(projectName: string) {
-      this.router.navigate([projectName], { relativeTo: this.route });
+      this.router.navigate([projectName], { relativeTo: this.route, queryParams: { language: this.language, mobileMenu: this.mobileMenu } });
   }
 }
