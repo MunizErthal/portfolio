@@ -2,7 +2,6 @@
     <div [class]="mobileMenu ? 'mobile-logo' : 'logo'" (click)="toHome()">Fernando Muniz Erthal</div>
     <nav *ngIf="!mobileMenu">
         <ul class="menu">
-            <li><a (click)="toHome()">{{ 'HOME' | translate:'header' }}</a></li>
             <li><a (click)="toAbout()">{{ 'ABOUT' | translate:'header' }}</a></li>
             <li><a (click)="toProjects()">{{ 'PROJECTS' | translate:'header' }}</a></li>
             <li><a (click)="toExperiences()">{{ 'EXPERIENCE' | translate:'header' }}</a></li>
@@ -14,5 +13,14 @@
     <div *ngIf="mobileMenu">
         <img (click)="changeLanguage()" [src]="'images/flag/' + (language == 'en' ? 'pt' : 'en') + '.png'" style="margin: auto; margin-top: 1vw; margin-right: 2vw; width: 7vw; height: auto;">
     </div>
+</header>
+<header *ngIf="mobileMenu" class="mobile-second-header fade-in">
+    <nav>
+        <ul class="mobile-menu">
+            <li><a (click)="toAbout()">{{ 'ABOUT' | translate:'header' }}</a></li>
+            <li><a (click)="toProjects()">{{ 'PROJECTS' | translate:'header' }}</a></li>
+            <li><a (click)="toExperiences()">{{ 'EXPERIENCE' | translate:'header' }}</a></li>
+        </ul>
+    </nav>
 </header>
 <router-outlet></router-outlet>

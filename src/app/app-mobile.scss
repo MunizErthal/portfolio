@@ -24,5 +24,35 @@
         margin: auto;
         margin-left: 2vw;
     }
+}
 
+.mobile-second-header {
+    top: 10vw;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    background-color: #f0f0f0;
+    height: 7vw;
+    width: 100vw;
+
+    .mobile-menu {
+        display: flex;
+        gap: 24px;
+        list-style: none;
+        margin: auto;
+        margin-left: 2vw;
+        padding: 0;
+
+        li {
+            cursor: pointer;
+            margin: auto;
+            a {
+                text-decoration: none;
+                color: #333;
+                font-weight: bold;
+                font-family: inherit;
+                font-size: 3.2vw;
+            }
+        }
+    }
 }
