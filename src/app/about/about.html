@@ -1,1 +1,13 @@
-<p>about works!</p>
+<div [class]="mobileMenu ? 'mobile-homeContainer fade-in' : 'homeContainer fade-in'">
+    <div [class]="mobileMenu ? 'mobile-leftContent' : 'leftContent'">
+        <div [class]="mobileMenu ? 'mobile-title' : 'title'">
+            <label>Fernando Muniz Erthal</label>
+        </div>
+        <div *ngFor="let p of paragraphs" [class]="mobileMenu ? 'mobile-description' : 'description'">
+            <p>{{ 'DESCRIPTION_P' + p | translate:'about' }}</p>
+        </div>
+    </div>
+    <div [class]="mobileMenu ? 'mobile-rightContent' : 'rightContent'">
+        <img src="/images/about/us.jpg" alt="Us" [class]="mobileMenu ? 'mobile-usImage' : 'usImage'" />
+    </div>
+</div>

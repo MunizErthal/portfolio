@@ -1,60 +1,52 @@
-.homeContainer {
+.mobile-homeContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-between;
     padding: 4vw;
     background-color: #f0f0f0;
+    margin-top: 15vw;
 }
 
-.leftContent {
-    width: 40vw;
-    float: left;
-    padding-top: 2vw;
-    margin-left: 5vw;
+.mobile-leftContent {
+    width: 80vw;
+    padding-top: 5vw;
+    margin: auto;
 }
 
-.rightContent {
-    width: 60vw;
+.mobile-rightContent {
+    width: 100vw;
     float: right;
-    padding: 2vw;
     
     position: relative;
-    width: 17vw;
-    height: 17vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 60% 40% 40% 60% / 50% 50% 50% 50%; // forma orgânica
     overflow: hidden;
     background-color: #f9f9f9;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     margin: auto;
-    margin-right: 5vw;
 }
 
-.title {
-    font-size: 3.8vw;
+.mobile-title {
+    font-size: 8vw;
     font-weight: bold;
     margin-bottom: 10px;
     font-family: "EB Garamond", serif;
 }
 
-.subtitle {
-    font-size: 1vw;
-    margin-top: -1vw;
-    font-family: "Quicksand", sans-serif;
-}
-
-.description {
-    font-size: 0.9vw;
+.mobile-description {
+    font-size: 3vw;
     color: #666;
     font-family: "Quicksand", sans-serif;
     margin-top: 1vw;
     text-align: justify;
-    width: 45vw;
+    width: 80vw;
 }
 
-.usImage {
-    width: 40vw;
+.mobile-usImage {
+    width: 85vw;
     height: auto;
     object-fit: cover;
-    margin-top: -18vw;
-    margin-left: -10vw;
+    margin-top: -29vw;
+    margin-left: -14vw;
 }

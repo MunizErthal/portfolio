@@ -17,6 +17,16 @@
     width: 60vw;
     float: right;
     padding: 2vw;
+    
+    position: relative;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 60% 40% 40% 60% / 50% 50% 50% 50%; // forma orgânica
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-right: 5vw;
 }
 
 .title {
@@ -51,18 +61,6 @@
     height: auto;
     margin-right: 1vw;
     cursor: pointer;
-}
-
-.rightContent {
-    position: relative;
-    width: 17vw;
-    height: 17vw;
-    border-radius: 60% 40% 40% 60% / 50% 50% 50% 50%; // forma orgânica
-    overflow: hidden;
-    background-color: #f9f9f9;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    margin: auto;
-    margin-right: 5vw;
 }
 
 .profileImage {

@@ -2,11 +2,13 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { LanguageService } from '../services/language.service';
 
 import home from '../assets/translations/home.json';
+import about from '../assets/translations/about.json';
 import header from '../assets/translations/header.json';
 import paranoia from '../assets/translations/paranoia.json';
 
 const translationsFiles: any = {
   home: home,
+  about: about,
   header: header,
   paranoia: paranoia
 };
