@@ -64,6 +64,10 @@
     margin: auto;
 }
 
+.sub-title h1 {
+    margin-top: 0vw !important;
+}
+
 .content-left h1 {
     font-size: 2vw;
     margin-top: 0vw;
@@ -157,4 +161,9 @@
     width: 15vw;
     margin: auto;
     height: auto;
+}
+
+a {
+    color: #000;
+    cursor: pointer;
 }

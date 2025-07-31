@@ -1,0 +1,55 @@
+.mobile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.mobile-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 15vw;
+    margin-bottom: -10vw;
+
+    img {
+        margin: auto;
+        width: 65vw;
+        height: auto;
+    }
+}
+
+.reverse {
+    flex-direction: column-reverse;
+}
+
+.mobile-title {
+    color: black;
+    font-size: 3.5vw;
+    font-family: "EB Garamond", serif;
+    margin: auto;
+}
+
+.mobile-sub-title {
+    color: black;
+    font-size: 2vw;
+    font-family: "EB Garamond", serif;
+    margin: auto;
+    margin-top: -1vw;
+}
+
+.mobile-description {
+    font-size: 3vw;
+    color: #666;
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    width: 80vw;
+    margin: auto;
+}
+
+.mobile-margin {
+    margin-left: 2vw;
+}
