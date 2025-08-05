@@ -99,6 +99,7 @@
 
 .mobile-single-image  {
     display: flex;
+    margin: auto;
 }
 
 .mobile-single-image img {
@@ -159,6 +160,12 @@
 }
 
 .mobile-mobile video {
+    width: 45vw;
+    margin: auto;
+    height: auto;
+}
+
+.mobile-mobile img {
     width: 45vw;
     margin: auto;
     height: auto;

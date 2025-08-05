@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { LanguageService } from '../../../services/language.service';
 
 @Component({
@@ -13,8 +13,7 @@ export class Deucritico {
   language: string = 'en';  // en ou pt
   mobileMenu = false;
 
-  constructor(private router: Router,
-              private route: ActivatedRoute,
+  constructor(private route: ActivatedRoute,
               private languageService: LanguageService) {
     this.loadParams();
     this.verifyMobile();

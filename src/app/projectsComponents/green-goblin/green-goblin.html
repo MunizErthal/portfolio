@@ -1,8 +1,8 @@
-<div class="content fade-in">
-    <div class="logo">
+<div [class]="mobileMenu ? 'mobile-content fade-in' : 'content fade-in'">
+    <div [class]="mobileMenu ? 'mobile-logo' : 'logo'">
         <img src="/images/projects/greengoblin.png" alt="Project Green Goblin Logo">        
     </div>
-    <div class="tech-stack">
+    <div [class]="mobileMenu ? 'mobile-tech-stack' : 'tech-stack'">
         <ul>
             <li><img src="/images/techs/unity.png" alt="Unity6"></li>
             <li><img src="/images/techs/cs.png" alt="C#"></li>
@@ -190,7 +190,6 @@
             </div>
         </div>
     </div>
-
 
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
