@@ -18,24 +18,14 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Resumo</h1>
+                <h1>{{ 'TITLE_1' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Deu Critico foi um projeto de TableTop para jogos de RPG criado por mim em 2019. 
-                </p>
-                <p>
-                    A ideia original era desenvolver um produto gratuito e de fácil uso para concorrer com outras plataformas que tinham o uso complexo.
-                </p>
-                <p>
-                    Além disso, foi usado para aperfeiçoar minhas habilidades com <b>front-end</b>, e suas integrações com um  <b>back-end</b> implementado com <b>NodeJs</b>.
-                </p>
-                <p>
-                    Eu quis escolher um projeto complexo, que fosse alinhar um grande desafio, o uso de várias tecnologias, com muita integração entre serviços e ao mesmo tempo, diversão.
-                </p>
-                <p>
-                    Eu como jogador de RPG, via na ferramenta uma grande oportunidade para crescer profissionalmente, ao mesmo tempo em que desenvolvia uma solução robusta para os problemas que eu encontrava em plataformas que tinham o mesmo papel.
-                </p>
+                <p>{{ 'RESUME_P1' | translate:'deucritico' }}</p>
+                <p>{{ 'RESUME_P2' | translate:'deucritico' }}</p>
+                <p [innerHTML]="'RESUME_P3' | translate:'deucritico'"></p>
+                <p>{{ 'RESUME_P4' | translate:'deucritico' }}</p>
+                <p>{{ 'RESUME_P5' | translate:'deucritico' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -53,21 +43,13 @@
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-text' : 'content-right-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Funcionamento</h1>
+                <h1>{{ 'TITLE_2' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Os usuários faziam seu cadastro através do site, ou pela integração com suas contas da Google.
-                </p>
-                <p>
-                    Uma vez cadastrados, os usuários teriam como criar suas salas de jogos, onde poderiam convidar outros jogadores para participar.
-                </p>
-                <p>
-                    O convite era enviado por <b>Socket.io</b> para o jogador, que receberia uma notificação em tempo real.
-                </p>
-                <p>
-                    Após aceitar o convite, o jogador deveria criar seu personagem, e então, poderia entrar na sala
-                </p>
+                <p>{{ 'FUNCTIONING_P1' | translate:'deucritico' }}</p>
+                <p>{{ 'FUNCTIONING_P2' | translate:'deucritico' }}</p>
+                <p [innerHTML]="'FUNCTIONING_P3' | translate:'deucritico'"></p>
+                <p>{{ 'FUNCTIONING_P4' | translate:'deucritico' }}</p>
             </div>
         </div>
     </div>
@@ -75,27 +57,15 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Tecnologias e Implementação</h1>
+                <h1>{{ 'TITLE_3' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    O projeto foi desenvolvido com <b>Angular 9</b> e <b>TypeScript</b>, utilizando <b>HTML</b> e <b>CSS</b> para a construção do front-end.
-                </p>
-                <p>
-                    Para armazenar informações dos jogadores e da mesa, foi escolhido o <b>Firebase</b> como banco de dados, uma vez que isso agilizaria a implementação de um backend para CRUD, sistema de autenticação e funcionalidades mais simples.
-                </p>
-                <p>
-                    Para implementar a comunicação entre multiplos clientes acessando um jogo, foi feito uso de <b>Socket.io</b> onde o backend do servidor foi implementado com <b>NodeJs</b> e <b>Express</b>.
-                </p>
-                <p>
-                    Além disso, o projeto foi hospedado no <b>Google Cloud Platform</b>, e o server na <b>AWS</b>.
-                </p>
-                <p>
-                    Para o componente gráfico, foi utilizado a biblioteca <b>Fabric.js</b> e customizado cada um de seus recursos para atender as necessidades do projeto.
-                </p>
-                <p>
-                    Outra integração foi com o <b>Imgur</b> para um serviço de biblioteca de imagens para os usuários utilizarem durante as partidas.
-                </p>
+                <p [innerHTML]="'TECHSTACK_P1' | translate:'deucritico'"></p>
+                <p [innerHTML]="'TECHSTACK_P2' | translate:'deucritico'"></p>
+                <p [innerHTML]="'TECHSTACK_P3' | translate:'deucritico'"></p>
+                <p [innerHTML]="'TECHSTACK_P4' | translate:'deucritico'"></p>
+                <p [innerHTML]="'TECHSTACK_P5' | translate:'deucritico'"></p>
+                <p [innerHTML]="'TECHSTACK_P6' | translate:'deucritico'"></p>
             </div>
         </div>
     </div>
@@ -103,32 +73,32 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-list' : 'content-list'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Recursos Do Table Top</h1>
+                <h1>{{ 'TITLE_4' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-list' : 'list'">
                 <ul>
-                    <li>Compartilhamento da mesa em tempo real</li>
-                    <li>Sistema de Revelar para mapa e tokens separadamente, utilizando ferramentas de Bézier</li>
-                    <li>Rolagem de dados de RPG, acumulada ou individual e em quantidade (D2, D4, D6, D8, D10, D12, D20, D100)</li>
-                    <li>Inventário individual para jogadores, com ações de receber e enviar itens</li>
-                    <li>Compartilhamento e gerenciamento de sons de fundo e efeito individual</li>
-                    <li>Chat em Vídeo chamada com funções para especificar ouvintes</li>
-                    <li>Régua em pixel e cadastro de distância para uso na mesa</li>
-                    <li>Carregamento de mapas estáticos e animados</li>
-                    <li>Compartilhamento de imagens entre jogadores</li>
-                    <li>Integração com Imgur, ou uso de links para cadastro e gerenciamento de imagens para uso nas mesas</li>
-                    <li>Camadas entre objetos da mesa</li>
-                    <li>Tokens informativos para status dos jogadores da mesa</li>
-                    <li>Ping em mapa entre jogadores</li>
-                    <li>Redirecionar câmera da mesa para o foco desejado pelo administrador</li>
-                    <li>Ícones para tokens</li>
-                    <li>Duplicar objetos da mesa</li>
-                    <li>Grade para a mesa</li>
-                    <li>Pincel e desenho de formas com controle de tamanho do pincel</li>
-                    <li>Deletar objetos com diversas opções</li>
-                    <li>Vida com barra para tokens</li>
-                    <li>Lista de tokens na cena</li>
-                    <li>Sistema de Toast Messages com implementação sem bibliotecas externas</li>
+                    <li>{{ 'FEATURES_LI_1' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_2' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_3' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_4' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_5' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_6' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_7' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_8' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_9' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_10' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_11' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_12' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_13' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_14' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_15' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_16' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_17' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_18' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_19' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_20' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_21' | translate:'deucritico' }}</li>
+                    <li>{{ 'FEATURES_LI_22' | translate:'deucritico' }}</li>
                 </ul>
             </div>
         </div>
@@ -137,18 +107,12 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Compartilhamento da mesa em tempo real, Sistema de Revelar para mapa e tokens utilizando ferramentas de Bézier e Chat em Vídeo</h1>
+                <h1>{{ 'TITLE_5' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Multiplos usuários recebem em tempo real as atualizações da mesa realizadas pelo administrador da sala.
-                </p>
-                <p>
-                    Uma dessas ferramentas de compartilhamento possíveis é o sistema de revelação, onde o administrador pode revelar partes específicas do mapa ou tokens, utilizando ferramentas de Bézier ou através dos próprios objetos da mesa.
-                </p>
-                <p>
-                    Outra feature importante é o chat em vídeo, onde os jogadores podem interagir uns com os outros, e ainda contam com a possibilidade de restringir aqueles que podem ouvir, aumentando assim as possibilidades de cenários durante as partidas.
-                </p>
+                <p>{{ 'FEATURE_1_P1' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_1_P2' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_1_P3' | translate:'deucritico' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -161,15 +125,11 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Rolagem de dados de RPG, acumulada ou individual e em quantidade (D2, D4, D6, D8, D10, D12, D20, D100)</h1>
+                <h1>{{ 'TITLE_6' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    O sistema de rolagem de dados permite que os jogadores façam rolagens individuais ou acumuladas, com a possibilidade de escolher a quantidade e o tipo de dado.
-                </p>
-                <p>
-                    As rolagens de dados são feitas em tempo real, e os resultados são compartilhados entre todos os jogadores da mesa.
-                </p>
+                <p>{{ 'FEATURE_2_P1' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_2_P2' | translate:'deucritico' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -182,18 +142,12 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Carregamento de mapas estáticos e animados, e Sistema de pincel e desenho de formas com controle de tamanho do pincel</h1>
+                <h1>{{ 'TITLE_7' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Os mapas upados pelos usuários podem ser estáticos ou animados, e são carregados na mesa de jogo e apresentados para todos os jogadores.
-                </p>
-                <p>
-                    Estes mapas podem, por exemplo, serem simples links de mapas upados em sistemas de hospedagem de imagens, ou até mesmo sistema de armazenamento em núvem, como Dropbox.
-                </p>
-                <p>
-                    Além disso, os usuários podem desenhar livremente pela cena inteira, o que é compartilhado entre os jogadores.
-                </p>
+                <p>{{ 'FEATURE_3_P1' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_3_P2' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_3_P3' | translate:'deucritico' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -206,21 +160,13 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Inventário individual para jogadores e Compartilhamento de imagens</h1>
+                <h1>{{ 'TITLE_8' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Cada jogador tem seu próprio inventário, onde pode armazenar itens e compartilhá-los com outros jogadores, estes podem ainda ser separados por tipos criados pelo próprio administrador.
-                </p>
-                <p>
-                    É através do inventário que os jogadores podem enviar e receber itens entre si, facilitando a troca de recursos durante o jogo.
-                </p>
-                <p>
-                    Pelo inventário é também onde o administrador pode enviar itens para os jogadores, como recompensas ou equipamentos, e compartilhar imagens para serem exibidas na mesa.
-                </p>
-                <p>
-                    O inventário é uma ferramenta essencial para a dinâmica do jogo, permitindo que os jogadores gerenciem seus recursos de forma eficiente, e vejam informações de cada um dos itens que estão carregando.
-                </p>
+                <p>{{ 'FEATURE_4_P1' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_4_P2' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_4_P3' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_4_P4' | translate:'deucritico' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -233,21 +179,13 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Compartilhamento e gerenciamento de sons de fundo e efeito individual</h1>
+                <h1>{{ 'TITLE_9' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Através do sistema de sons, o administrador pode compartilhar sons de fundo e efeitos sonoros, que são reproduzidos em tempo real para todos os jogadores da mesa.
-                </p>
-                <p>
-                    Os sons podem são cadastrados através de links de áudios hospedados em serviços como o <b>SoundCloud</b>, ou até mesmo links diretos de arquivos de áudio e usados durante todo o jogo.
-                </p>
-                <p>
-                    O administrador pode controlar o volume dos sons individualmente, permitindo assim ajustar a experiência de áudio de acordo com sua preferência.
-                </p>
-                <p>
-                    Além de incluir a opção de som em loop, para criar sons de fundo contínuos, ou sons de efeitos que podem ser acionados em momentos específicos do jogo.
-                </p>
+                <p>{{ 'FEATURE_5_P1' | translate:'deucritico' }}</p>
+                <p [innerHTML]="'FEATURE_5_P2' | translate:'deucritico'"></p>
+                <p>{{ 'FEATURE_5_P3' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_5_P4' | translate:'deucritico' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -260,18 +198,12 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Régua em pixel, Ícones para tokens e Camadas entre objetos da mesa</h1>
+                <h1>{{ 'TITLE_10' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Ao utilizar a régua na mesa, o administrador pode compartilhar com os jogadores a distância entre pontos especificos.
-                </p>
-                <p>
-                    Através dos ícones o administrador da mesa cosnegue deixar marcações individuais para seus tokens.
-                </p>
-                <p>
-                    Com o sistema de camadas o administrador consegue organizar em níveis os objetos da mesa.
-                </p>
+                <p>{{ 'FEATURE_6_P1' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_6_P2' | translate:'deucritico' }}</p>
+                <p>{{ 'FEATURE_6_P3' | translate:'deucritico' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -284,21 +216,13 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Aprendizados</h1>
+                <h1>{{ 'TITLE_11' | translate:'deucritico' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Com este projeto pude aperfeiçoar meu conhecimento com <b>Angular</b>, <b>NodeJS</b> e <b>Front-end</b> de modo geral.
-                </p>
-                <p>
-                    Além de ter sido excelente poder trabalhar com novas tecnologias como <b>FabricJS</b>, <b>Socket.io</b> e <b>Firebase</b>.
-                </p>
-                <p>
-                    Hoje o <b>Deu Crítico</b> está com o desenvolvimento parado devido ao foco em outros projetos.
-                </p>
-                <p>
-                    Certamente sou um profissional mais completo hoje, o que me permitiria desenvolver esta solução de forma ainda mais completa. Utilizando novos recursos e implementando ainda mais features.
-                </p>
+                <p [innerHTML]="'LEARNINGS_P1' | translate:'deucritico'"></p>
+                <p [innerHTML]="'LEARNINGS_P2' | translate:'deucritico'"></p>
+                <p [innerHTML]="'LEARNINGS_P3' | translate:'deucritico'"></p>
+                <p>{{ 'LEARNINGS_P4' | translate:'deucritico' }}</p>
             </div>
         </div>
     </div>

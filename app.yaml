@@ -1,0 +1,20 @@
+runtime: nodejs22
+
+handlers:
+  # Arquivos estáticos comuns
+  - url: /(.*\.(js|css|png|gif|jpg|svg|json|ico|woff|woff2|ttf|eot|otf))
+    static_files: dist/portfolio/browser/\1
+    upload: dist/portfolio/browser/.*\.(js|css|png|gif|jpg|svg|json|ico|woff|woff2|ttf|eot|otf)
+    secure: always
+
+  # Fontes em subpastas (opcional, se necessário)
+  - url: /assets/fonts/(.*)
+    static_files: dist/portfolio/browser/assets/fonts/\1
+    upload: dist/portfolio/browser/assets/fonts/.*
+
+  # Redireciona todas as outras rotas para o index.html (SPA)
+  - url: /.*
+    static_files: dist/portfolio/browser/index.html
+    upload: dist/portfolio/browser/index.html
+    secure: always
+    redirect_http_response_code: 301

@@ -31,6 +31,12 @@ li {
     user-select: none !important;
 }
 
+.not-select{
+    user-select: none !important;
+}
+
 a {
     user-select: all !important;
+    cursor: pointer !important;
+    color: #000;
 }

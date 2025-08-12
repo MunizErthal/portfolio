@@ -12,27 +12,15 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Resumo</h1>
+                <h1>{{ 'TITLE_1' | translate:'greengoblin' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    O <b>Projeto Green Goblin</b> é meu primeiro projeto de jogo desenvolvido para as plataformas de Console e PC. 
-                </p>
-                <p>
-                    Se trata de um jogo que mistura vários estilos, como por exemplo: adventure, gerenciamento de recursos, estratégia, exploração e puzzles.
-                </p>
-                <p>
-                    Escolhi desenvolver um jogo de mundo aberto, trazendo diversos elementos de jogos que gosto, e que pudessem ser ao mesmo tempo que um desafio, uma porta de entrada que abrangesse diversas áreas e mecânicas de jogos.
-                </p>
-                <p>
-                    Um dos meus sonhos sempre foi mergulhar no universo dos jogos, e por isso, resolvi iniciar este projeto tanto para começar meus estudos mas também como um projeto comercial.
-                </p>
-                <p>
-                    Para o desenvolvimento, foi escolhido utilizar a engine <b>Unity</b> que faz uso da linguagem de programação <b>C#</b>.
-                </p>
-                <p>
-                    Se tiver interesse em acompanhar novidades, pode fazer isso por aqui: <a href="https://projectgreengoblin.com" target="_blank">projectgreengoblin.com</a>
-                </p>
+                <p [innerHTML]="'RESUME_P1' | translate:'greengoblin'"></p>
+                <p>{{ 'RESUME_P2' | translate:'greengoblin' }}</p>
+                <p>{{ 'RESUME_P3' | translate:'greengoblin' }}</p>
+                <p>{{ 'RESUME_P4' | translate:'greengoblin' }}</p>
+                <p [innerHTML]="'RESUME_P5' | translate:'greengoblin'"></p>
+                <p [innerHTML]="'RESUME_P6' | translate:'greengoblin'"></p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -50,18 +38,12 @@
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-text' : 'content-right-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>O Jogo</h1>
+                <h1>{{ 'TITLE_2' | translate:'greengoblin' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    O Projeto Green Goblin segue a história de um Goblin enfeitiçado que obteve um poder muito maior do que deveria, trazendo uma grande sátira aos RPGs clássicos
-                </p>
-                <p>
-                    A ideia do jogo gira em torno deste Goblin ser, na verdade, um Mestre de Dungeons.
-                </p>
-                <p>
-                    Os jogadores assumem o papel de gerenciar dungeons, alocando criaturas, armadilhas e tesouros, enquanto exploram o mundo aberto do jogo e seus personagens.
-                </p>
+                <p>{{ 'FUNCTIONING_P1' | translate:'greengoblin' }}</p>
+                <p>{{ 'FUNCTIONING_P2' | translate:'greengoblin' }}</p>
+                <p>{{ 'FUNCTIONING_P3' | translate:'greengoblin' }}</p>
             </div>
         </div>
     </div>
@@ -69,18 +51,12 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Tecnologias e Implementação</h1>
+                <h1>{{ 'TITLE_3' | translate:'greengoblin' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    O projeto vem sendo desenvolvido com <b>Unity 6</b>, utilizando <b>C#</b> para a implementação dos códigos.
-                </p>
-                <p>
-                    As artes e animações foram adquiridas e integradas ao jogo pela Synty Studios, uma empresa especializada em artes 3D no estilo low poly.    
-                </p>
-                <p>
-                    O projeto será lançado para consoles e PC.
-                </p>
+                <p [innerHTML]="'TECHSTACK_P1' | translate:'greengoblin'"></p>
+                <p>{{ 'TECHSTACK_P2' | translate:'greengoblin' }}</p>
+                <p>{{ 'TECHSTACK_P3' | translate:'greengoblin' }}</p>
             </div>
         </div>
     </div>
@@ -88,32 +64,33 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-list' : 'content-list'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Algumas Implementações até aqui</h1>
+                <h1>{{ 'TITLE_4' | translate:'greengoblin' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-list' : 'list'">
                 <ul>
-                    <li>Movimentação base do personagem - Andar, Correr, Pular, Abaixar e Coletar</li>
-                    <li>Level Design e UX Design</li>
-                    <li>Execução automatizada de dungeons em tempo real</li>
-                    <li>Inventário</li>
-                    <li>Lógica para subida de escadas</li>
-                    <li>Trilho para escadas em caracol</li>
-                    <li>Lógica para itens perdidos em buracos de mesh</li>
-                    <li>Movimentação de NPCs</li>
-                    <li>Sistema de rotinas para NPCs</li>
-                    <li>Tela de Gerenciamento de Dungeon</li>
-                    <li>Tela de Gerenciamento de Monstros</li>
-                    <li>Sistema de Mapa e Localidades do jogo</li>
-                    <li>Prefabs de Baús com drops</li>
-                    <li>Canvas de Notificação</li>
-                    <li>Sistema de Dia/Noite com horas, dias e anos</li>
-                    <li>Sistema de Save e Load</li>
-                    <li>Configuração da Cinemachine</li>
-                    <li>Implementação de transparência do personagem detectado por colisão com a camêra</li>
-                    <li>Coletar drops do chão com validação de proximidade e raycast</li>
-                    <li>Implementação da Iluminação e sistema de pós processamento</li>
-                    <li>Configuração de tecnicas de otimização como objetos com LOD (Level of Detail) e Occlusion Culling</li>
-                    <li>Desenvolvimento da narrativa</li>
+                    <li>{{ 'FEATURES_LI_1' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_2' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_3' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_4' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_5' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_6' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_7' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_8' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_9' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_10' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_11' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_12' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_13' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_14' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_15' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_16' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_17' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_18' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_19' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_20' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_21' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_22' | translate:'greengoblin' }}</li>
+                    <li>{{ 'FEATURES_LI_23' | translate:'greengoblin' }}</li>
                 </ul>
             </div>
         </div>
@@ -122,12 +99,13 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Inventário</h1>
+                <h1>{{ 'TITLE_5' | translate:'greengoblin' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Um dos recursos que eu desejava era a facilidade em encontrar as histórias, ou navegar de acordo com genêros ou tags relacionadas.
-                </p>
+                <p>{{ 'FEATURE_1_P1' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_1_P2' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_1_P3' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_1_P4' | translate:'greengoblin' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -140,12 +118,12 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Trilho para escadas em caracol</h1>
+                <h1>{{ 'TITLE_6' | translate:'greengoblin' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Um dos recursos que eu desejava era a facilidade em encontrar as histórias, ou navegar de acordo com genêros ou tags relacionadas.
-                </p>
+                <p>{{ 'FEATURE_2_P1' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_2_P2' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_2_P3' | translate:'greengoblin' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -158,12 +136,12 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Prefabs de Baús com drops</h1>
+                <h1>{{ 'TITLE_7' | translate:'greengoblin' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Um dos recursos que eu desejava era a facilidade em encontrar as histórias, ou navegar de acordo com genêros ou tags relacionadas.
-                </p>
+                <p>{{ 'FEATURE_3_P1' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_3_P2' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_3_P3' | translate:'greengoblin' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -176,12 +154,15 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Execução automatizada de dungeons em tempo real</h1>
+                <h1>{{ 'TITLE_8' | translate:'greengoblin' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Um dos recursos que eu desejava era a facilidade em encontrar as histórias, ou navegar de acordo com genêros ou tags relacionadas.
-                </p>
+                <p>{{ 'FEATURE_4_P1' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_4_P2' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_4_P3' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_4_P4' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_4_P5' | translate:'greengoblin' }}</p>
+                <p>{{ 'FEATURE_4_P6' | translate:'greengoblin' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -194,27 +175,15 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Aprendizados</h1>
+                <h1>{{ 'TITLE_9' | translate:'greengoblin' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Venho aprendendo muito com o projeto, tanto em termos de programação quanto de design e desenvolvimento de jogos.
-                </p>
-                <p>
-                    A experiência de trabalhar com Unity tem sido extremamente enriquecedora, permitindo-me explorar novas técnicas e abordagens para resolver problemas complexos.
-                </p>
-                <p>
-                    Além disso, o projeto tem me desafiado a pensar de forma criativa e a encontrar soluções inovadoras para os desafios que surgem durante o desenvolvimento.
-                </p>
-                <p>
-                    Trabalhar com o desenvolvimento de jogos se mostra a cada dia como um novo mundo onde eu sempre quis estar.
-                </p>
-                <p>
-                    Este é um projeto que ainda está em desenvolvimento, com novas funcionalidades sendo adicionadas e melhorias sendo feitas constantemente.
-                </p>
-                <p>
-                    Se você tem interesse em acompanhar novidades, você pode fazer isso por aqui: <a href="https://projectgreengoblin.com" target="_blank">projectgreengoblin.com</a>
-                </p>
+                <p>{{ 'LEARNINGS_P1' | translate:'greengoblin' }}</p>
+                <p>{{ 'LEARNINGS_P2' | translate:'greengoblin' }}</p>
+                <p>{{ 'LEARNINGS_P3' | translate:'greengoblin' }}</p>
+                <p>{{ 'LEARNINGS_P4' | translate:'greengoblin' }}</p>
+                <p>{{ 'LEARNINGS_P5' | translate:'greengoblin' }}</p>
+                <p [innerHTML]="'LEARNINGS_P6' | translate:'greengoblin'"></p>
             </div>
         </div>
     </div>

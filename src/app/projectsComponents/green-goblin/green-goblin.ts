@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LanguageService } from '../../../services/language.service';
+import { TranslatePipe } from '../../../pipes/translate.pipe';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-green-goblin',
-  imports: [],
+  imports: [CommonModule, TranslatePipe],
   templateUrl: './green-goblin.html',
   styleUrls: ['./green-goblin.scss', './../projects.scss', './../projects-mobile.scss'],
 })

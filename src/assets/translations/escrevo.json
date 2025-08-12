@@ -1,0 +1,118 @@
+{
+  "en": {
+  "TITLE_1": "Summary",
+  "RESUME_P1": "My short story website was developed in 2021 as a public platform to share my stories. You can access it here: <a href=\"https://contos.fernandome.com\" target=\"_blank\">contos.fernandome.com</a>",
+  "RESUME_P2": "The goal was to create a space focused on reading stories, with features that would provide readers with a pleasant reading experience.",
+  "RESUME_P3": "There were no platforms in the market that offered the freedom I wanted, nor the level of control over my publications — so I decided to build my own website.",
+  "RESUME_P4": "That’s how my short story site came to be, where all the published content is mine, with features like a story reader and sharing system.",
+  "RESUME_P5": "With a layout inspired by <b>Netflix</b>, the idea was to create a kind of short story library to promote my work.",
+
+  "TITLE_2": "How It Works",
+  "FUNCTIONING_P1": "Users can access the site and read any published story.",
+  "FUNCTIONING_P2": "They can like and comment on stories.",
+  "FUNCTIONING_P3": "Users can also share story excerpts with personalized covers on their social networks.",
+  "FUNCTIONING_P4": "Several tools are available to improve the reading experience, such as dark mode, font size settings, and a reading progress bar.",
+
+  "TITLE_3": "Technologies and Implementation",
+  "TECHSTACK_P1": "The project was developed using <b>Angular 9</b> and <b>TypeScript</b>, with <b>HTML</b> and <b>CSS</b> to build a responsive front-end.",
+  "TECHSTACK_P2": "To store stories, comments, and likes, <b>Firebase</b> was chosen as the database solution, as the project didn’t require a <b>back-end</b> service due to its simplicity.",
+  "TECHSTACK_P3": "The project was hosted on <b>Google Cloud Platform</b>.",
+  "TECHSTACK_P4": "In addition to reading stories, other features like search by tags, titles, and genres, as well as excerpt sharing, were fully implemented on the <b>front-end</b>.",
+
+  "TITLE_4": "Features",
+  "FEATURES_LI_1": "Read published stories",
+  "FEATURES_LI_2": "Responsive layout for smartphone reading",
+  "FEATURES_LI_3": "Search by title, genre, and tags",
+  "FEATURES_LI_4": "Display of views and likes per story",
+  "FEATURES_LI_5": "Reading modes: Dark Mode and Light Mode",
+  "FEATURES_LI_6": "Reading progress bar",
+  "FEATURES_LI_7": "Font size control for reading",
+  "FEATURES_LI_8": "Select excerpts for sharing",
+  "FEATURES_LI_9": "Sharing in different formats with visual design options",
+  "FEATURES_LI_10": "Stories with translatable excerpts",
+  "FEATURES_LI_11": "Like button for stories",
+  "FEATURES_LI_12": "Comment system",
+
+  "TITLE_5": "Responsive Layout for Smartphone Reading",
+  "FEATURE_1_P1": "One of the main goals was to create a responsive layout that provided a pleasant reading experience on mobile devices.",
+
+  "TITLE_6": "Search by Title, Genre, and Tags",
+  "FEATURE_2_P1": "One of the features I wanted was an easy way to find stories or browse by genres or related tags.",
+
+  "TITLE_7": "Reading Modes: Dark and Light + Reading Progress Bar",
+  "FEATURE_3_P1": "The reading mode was especially important to me, as many platforms I found didn’t even offer this feature.",
+
+  "TITLE_8": "Font Size Control for Reading",
+  "FEATURE_4_P1": "Allowing users to adjust font size to improve readability, especially for those who might struggle with small text.",
+
+  "TITLE_9": "Excerpt Selection and Sharing in Various Formats with Visual Designs",
+  "FEATURE_5_P1": "The goal here was to make sharing stories easier, so users could help promote my work.",
+
+  "TITLE_10": "Stories with Translatable Excerpts",
+  "FEATURE_6_P1": "Including passages in other languages allowed for a more immersive experience, while also offering a translation option for users, either on a first read or later.",
+
+  "TITLE_11": "Learnings",
+  "LEARNINGS_P1": "With this project, I was able to deepen my knowledge of <b>Angular</b> and <b>Firebase</b>.",
+  "LEARNINGS_P2": "It was a fully personal project, but with a focus on delivering the highest possible quality.",
+  "LEARNINGS_P3": "The project was a major challenge, as the goal was to create a site that was pleasant for users, with a good reading experience and easy navigation, which also helped build my <b>UX</b> understanding.",
+  "LEARNINGS_P4": "It's an ongoing project, with new features and improvements constantly being added."
+  },
+  "pt": {
+    "TITLE_1":"Resumo",
+    "RESUME_P1": "Meu site de contos foi desenvolvido em 2021 com a ideia de um local publico para compartilhar minhas histórias, você pode acessar ele aqui: <a href=\"https://contos.fernandome.com\" target=\"_blank\">contos.fernandome.com</a>",
+    "RESUME_P2": "A ideia era criar um local focado na leitura de histórias, com features que ajudassem os leitores a terem uma experiencia agradável durante a leitura.",
+    "RESUME_P3": "No mercado não existiam locais para publicação que oferecesse a liberdade que eu desejava, nem mesmo o controle que eu queria com minhas publicações, então por isso resolvi desenvolver meu próprio site",
+    "RESUME_P4": "Dessa forma surgiu o meu site de contos, onde todas as publicações são histórias minhas, com features que agregam como um sistema de leitura e compartilhamento de histórias.",
+    "RESUME_P5": "Com um layout influenciado pela <b>Netflix</b> o desejo era criar uma espécie de biblioteca de contos para eu poder promover minhas histórias",
+    
+    "TITLE_2":"Funcionamento",
+    "FUNCTIONING_P1": "Os usuários podem acessar o site e lerem qualquer história publicada.",
+    "FUNCTIONING_P2": "É possível curtir e comentar as histórias.",
+    "FUNCTIONING_P3": "Além disso, os usuários podem compartilhar trechos das histórias, com capas personalizadas em suas redes sociais.",
+    "FUNCTIONING_P4": "Existem várias ferramentas para facilitar a leitura, como o modo escuro, configuração do tamanho da fonte e barra de progresso da leitura.",
+
+    "TITLE_3":"Tecnologias e Implementação",
+    "TECHSTACK_P1": "O projeto foi desenvolvido com <b>Angular 9</b> e <b>TypeScript</b>, utilizando <b>HTML</b> e <b>CSS</b> para a construção de um front-end responsivo.",
+    "TECHSTACK_P2": "Para armazenar os contos, comentários e curtidas, foi escolhido o <b>Firebase</b> como banco de dados, uma vez que a ideia não era implementar um serviço de <b>back-end</b>, já que a solução final seria simples",
+    "TECHSTACK_P3": "O projeto foi hospedado no <b>Google Cloud Platform</b>.",
+    "TECHSTACK_P4": "Além da leitura de contos, outras funcionalidades como pesquisas por tags, títulos e genêros, ou o compartilhamento de trechos dos contos, foram totalmente implementados no <b>front-end</b>.",
+
+    "TITLE_4":"Recursos",
+    "FEATURES_LI_1": "Leitura dos contos publicados",
+    "FEATURES_LI_2": "Layout responsivo para leitura em smartphones",
+    "FEATURES_LI_3": "Pesquisa por título, gênero e tags",
+    "FEATURES_LI_4": "Informativo de número de leitura/curtidas por publicação",
+    "FEATURES_LI_5": "Modos de leitura Dark Mode e Light Mode",
+    "FEATURES_LI_6": "Barra de progresso da leitura",
+    "FEATURES_LI_7": "Controle do tamanho da fonte na leitura",
+    "FEATURES_LI_8": "Seleção de trechos para compartilhamento",
+    "FEATURES_LI_9": "Compartilhamento em diferentes formatos e com opções de artes",
+    "FEATURES_LI_10": "História com trechos com opção de tradução",
+    "FEATURES_LI_11": "Botão para curtir histórias",
+    "FEATURES_LI_12": "Inclusão de comentários",
+
+    "TITLE_5":"Layout responsivo para leitura em smartphones",
+    "FEATURE_1_P1": "Um dos focos aqui era criar um layout responsivo para uma leitura agradável a partir de dispositivos móveis.",
+
+    "TITLE_6":"Pesquisa por título, gênero e tags",
+    "FEATURE_2_P1": "Um dos recursos que eu desejava era a facilidade em encontrar as histórias, ou navegar de acordo com genêros ou tags relacionadas.",
+
+    "TITLE_7":"Modos de leitura Dark Mode e Light Mode e Barra de progresso da leitura",
+    "FEATURE_3_P1": "O modo de leitura também era algo muito importante pra mim, uma vez que vários dos sites de publicação que eu encontrei não tinham nem mesmo este recurso.",
+
+    "TITLE_8":"Controle do tamanho da fonte na leitura",
+    "FEATURE_4_P1": "Controlar o tamanho da fonte para facilitar a leitura de usuários que poderiam ter problema com o tamanho da fonte.",
+
+    "TITLE_9":"Seleção de trechos para compartilhamento e compartilhamento em diferentes formatos e com opções de artes",
+    "FEATURE_5_P1": "A ideia aqui era facilitar o compartilhamento das histórias, para que os usuários pudessem dar apoio na divulgação do trabalho.",
+
+    "TITLE_10":"História com trechos com opção de tradução",
+    "FEATURE_6_P1": "Incluir trechos de outros idiomas, permitindo uma leitura mais imersiva, mas, com a opção de tradução para o usuário que quer entender o que está sendo dito, seja em uma primeira leitura ou para leituras posteriores.",
+
+    "TITLE_11":"Aprendizados",
+    "LEARNINGS_P1": "Com este projeto pude aperfeiçoar meu conhecimento com <b>Angular</b> e <b>Firebase</b>.",
+    "LEARNINGS_P2": "Foi um projeto totalmente pessoal, mas focado em apresentar o máximo de qualidade possível",
+    "LEARNINGS_P3": "O projeto foi um grande desafio, pois o objetivo era criar um site que fosse agradável para os usuários, com uma boa experiência de leitura e fácil navegação, o que contribuiu também com noções de <b>UX</b>.",
+    "LEARNINGS_P4": "É um projeto que ainda está em desenvolvimento, com novas funcionalidades sendo adicionadas e melhorias sendo feitas constantemente."
+  }
+}

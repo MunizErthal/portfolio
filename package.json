@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng build --prod && gcloud app deploy --quiet"
   },
   "prettier": {
     "overrides": [
@@ -34,6 +35,7 @@
     "@angular/cli": "^20.1.0",
     "@angular/compiler-cli": "^20.1.0",
     "@types/jasmine": "~5.1.0",
+    "cross-env": "^10.0.0",
     "jasmine-core": "~5.8.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",

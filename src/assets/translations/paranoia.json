@@ -1,1 +1,124 @@
-{}
+{
+  "en": {
+  "TITLE_1": "Summary",
+
+  "RESUME_P1": "Paranoia is an entertainment company specializing in creating games and gamified experiences.",
+  "RESUME_P2": "Initially founded as an Escape Game, the company evolved to develop interactive solutions for corporate, entertainment, and digital segments.",
+  "RESUME_P3": "Throughout its journey, I developed all technological solutions, from game development, electronic mechanisms, and applications to website and service API creation and deployment.",
+  "RESUME_P4": "To streamline development, we chose to standardize technologies, using <b>Java</b> for the back-end, <b>Angular</b> for websites, and <b>Ionic</b> for mobile applications.",
+  "RESUME_P5": "If you're interested in following updates, you can follow them here: <a href=\"https://www.instagram.com/paranoiajogos\" target=\"_blank\">Instagram/paranoiajogos</a>",
+
+  "TITLE_2": "About Paranoia",
+  "ABOUT_P1": "Paranoia started as an Escape Game, a game where participants solve puzzles and challenges to escape from a themed room within a time limit.",
+  "ABOUT_P2": "With the onset of the pandemic and the need to adapt, Paranoia evolved to create gamified experiences, developing games and interactive solutions for various segments.",
+  "ABOUT_P3": "Today, Paranoia is an entertainment company focused on creating games and gamified experiences.",
+
+  "TITLE_3": "Technologies and Implementation",
+  "TECHSTACK_P1": "For implementing solutions, Paranoia chose a standardized tech stack, including <b>Java</b> for the back-end, <b>Angular</b> for websites, and <b>Ionic</b> for mobile applications, along with <b>MySQL</b> for databases.",
+  "TECHSTACK_P2": "Additionally, Paranoia uses <b>Arduino</b> technologies for developing electronic mechanisms, enabling the creation of interactive and immersive experiences.",
+  "TECHSTACK_P3": "All other development needs, such as deployments, synchronizations, and integrations, were also handled internally, which also provided extensive experience with <b>Linux</b> and integrations, such as with <b>Payment Gateways</b>.",
+
+  "TITLE_4": "Some Implementations So Far",
+  "FEATURE_LI_1": "Fully gamified website",
+  "FEATURE_LI_2": "Application for game management",
+  "FEATURE_LI_3": "Integration with PayU and MercadoPago",
+  "FEATURE_LI_4": "Electronic mechanisms with touch sensors, sound, and RFID",
+  "FEATURE_LI_5": "Implementation of logic-based games with in-site rewards for customers",
+  "FEATURE_LI_6": "Reward system with points for discounts on product purchases",
+  "FEATURE_LI_7": "Medal system",
+  "FEATURE_LI_8": "Ranking by Teams and Users",
+  "FEATURE_LI_9": "Management of reservations, scheduling, payments, and sales",
+  "FEATURE_LI_10": "Automated system for requesting hints during games",
+
+  "TITLE_5": "Fully Gamified Website and Medal System",
+  "FEATURE_1_P1": "The website was a case study for my thesis: <a href=\"https://deposita.ibict.br/workflowitems/1937/view\" target=\"_blank\">USER ENGAGEMENT IN VIRTUAL ENVIRONMENTS: A study on the influence of gamification in virtual environments</a>.",
+  "FEATURE_1_P2": "It was developed in a fully gamified manner, aiming to build user engagement and loyalty, and foster a community around the brand.",
+  "FEATURE_1_P3": "The website features a ranking system by teams and users, where participants can compete against each other, earning points and medals for their achievements.",
+  "FEATURE_1_P4": "Users can track the ranking in real-time, viewing their positions relative to other participants, XP, and their medal wall through their user profile.",
+
+  "TITLE_6": "Application for Game Management",
+  "FEATURE_2_P1": "Paranoia's application was developed to be a tool during game execution.",
+  "FEATURE_2_P2": "With it, players could start the game, request hints, monitor elapsed time, and end the game, all programmed without the need for monitors.",
+  "FEATURE_2_P3": "Additionally, the idea is to provide player data, such as profile, ranking, team information, and tutorials to assist during the game.",
+
+  "TITLE_7": "Ranking by Teams and Users",
+  "FEATURE_3_P1": "Rankings were implemented to further engage players and their teams.",
+  "FEATURE_3_P2": "It allowed players to see their positions based on points earned within Paranoia games.",
+  "FEATURE_3_P3": "Paranoia introduced various game models, from physical Escape Games and Escape Box deliveries to online game puzzles. Each generated points and medals for users.",
+
+  "TITLE_8": "Implementation of Weekly Logic Games with Rewards for Users",
+  "FEATURE_4_P1": "For some time, Paranoia implemented weekly challenges with point-based rewards directly on the website.",
+  "FEATURE_4_P2": "The challenges consisted of Puzzle Games, where users had to solve them using hints and verifying their answers.",
+  "FEATURE_4_P3": "Users who correctly solved the challenges earned points. These points could be used to purchase products on the website at a discount or to obtain hints in other puzzles.",
+  "FEATURE_4_P4": "The challenges were a way to engage users and also attract new ones to the site, expanding the community around the brand, a strategy that proved successful, as demonstrated in my thesis: <a href=\"https://deposita.ibict.br/workflowitems/1937/view\" target=\"_blank\">USER ENGAGEMENT IN VIRTUAL ENVIRONMENTS: A study on the influence of gamification in virtual environments</a>.",
+
+  "TITLE_9": "Learnings",
+  "LEARNINGS_P1": "I learned and grew significantly by developing all of Paranoia's needs.",
+  "LEARNINGS_P2": "There were multiple versions of websites, applications, databases, APIs, work with electronics, Linux server configurations, cloud deployments, and all aspects of DevOps I hadn't previously worked with.",
+  "LEARNINGS_P3": "Moreover, Paranoia served as a massive creative endeavor, allowing me to create various games, challenges, puzzles, and more, enhancing logical and strategic thinking, game design, and user experience.",
+  "LEARNINGS_P4": "Being the owner of my own business taught me a lot and allowed me to experience every small part of the development process, from idea conception to final product delivery.",
+  "LEARNINGS_P5": "Paranoia is still active, and I continue to develop new solutions and improve existing ones, always ready to deliver innovative and high-quality solutions for clients.",
+  "LEARNINGS_P6": "If you're interested in following updates, you can follow them here: <a href=\"https://www.instagram.com/paranoiajogos/\" target=\"_blank\">Instagram/paranoiajogos</a>"
+  },
+  "pt": {
+    "TITLE_1":"Resumo",
+
+    "RESUME_P1": "A <b>Paranoia</b> é uma empresa do ramo de entretenimento, especializada na criação de jogos e experiências gamificadas.",
+    "RESUME_P2": "Fundada inicialmente como um Escape Game, a empresa evoluiu para desenvolver soluções interativas para os segmentos corporativo, de entretenimento e digital.",
+    "RESUME_P3": "Durante toda sua trajetória, eu desenvolvi todas as soluções tecnológicas, desde o desenvolvimento dos jogos, mecânismos eletrônicos e aplicativos até a criação de sites e APIs de serviço, e o deploy das mesmas.",
+    "RESUME_P4": "Para os desenvolvimento, a escolha foi padronizar as técnologias, e por isso, utilizei <b>Java</b> para o back-end, <b>Angular</b> para os sites e <b>Ionic</b> para o aplicativo mobile",
+    "RESUME_P5": "Se tiver interesse em acompanhar novidades, pode fazer isso por aqui: <a href=\"https://www.instagram.com/paranoiajogos/\" target=\"_blank\">Instagram/paranoiajogos</a>",
+
+    "TITLE_2":"A Paranoia",
+    "ABOUT_P1": "A Paranoia surgiu como um Escape Game, um jogo de fuga onde os participantes precisam resolver enigmas e desafios para escapar de uma sala temática dentro de um tempo limite.",
+    "ABOUT_P2": "Com a vinda da Pandemia, e precisando se adaptar, a Paranoia evoluiu para criar experiências gamificadas, desenvolvendo jogos e soluções interativas para diversos segmentos.",
+    "ABOUT_P3": "Hoje a Paranoia é uma empresa de entretenimento com foco na criação de jogos e experiências gamificadas.",
+
+    "TITLE_3":"Tecnologias e Implementação",
+    "TECHSTACK_P1": "Para a implementação das soluções, a Paranoia optou por utilizar uma stack tecnológica padronizada, que inclui <b>Java</b> para o back-end, <b>Angular</b> para os sites e <b>Ionic</b> para o aplicativo mobile, além de <b>MySQL</b> para as bases de dados.",
+    "TECHSTACK_P2": "Além disso, a Paranoia também utiliza tecnologias <b>Arduíno</b> para o desenvolvimento de mecânismos eletrônicos, permitindo a criação de experiências interativas e imersivas.",
+    "TECHSTACK_P3": "Todas as demais necessidades de desenvolvimento, como deploys, sincronizações e integrações, foram realizadas também internamente, e por isso, a Paranoia trouxe muita experiência também com <b>Linux</b> e integrações, como por exemplo com <b>Gateways de pagamentos</b>.",
+    
+    "TITLE_4":"Algumas Implementações até aqui",
+    "FEATURE_LI_1": "Site totalmente gamificado",
+    "FEATURE_LI_2": "Aplicativo para gerenciamento dos jogos",
+    "FEATURE_LI_3": "Integração com PayU e MercadoPago",
+    "FEATURE_LI_4": "Mecanismos Eletrônicos com sensores de toque, som e rfID",
+    "FEATURE_LI_5": "Implementação de jogos lógicos semais com recompensas para os clientes dentro do site",
+    "FEATURE_LI_6": "Sistema de recompensa com pontos para utilizar como desconto na compra dos produtos",
+    "FEATURE_LI_7": "Sistema de medalhas",
+    "FEATURE_LI_8": "Ranking por Equipes e Usuários",
+    "FEATURE_LI_9": "Gerenciamento de reservas, agendamentos, pagamentos e vendas",
+    "FEATURE_LI_10": "Sistema automatizado para solicitação de dicas durante partidas",
+
+    "TITLE_5":"Site totalmente gamificado e Sistema de medalhas",
+    "FEATURE_1_P1": "O site foi caso de estudo para a escrita do TCC: <a href=\"https://deposita.ibict.br/workflowitems/1937/view\" target=\"_blank\">FIDELIZAÇÃO DE USUÁRIO EM AMBIENTE VIRTUAL: Um estudo sobre a influência da gamificação em ambientes virtuais</a>.",
+    "FEATURE_1_P2": "Ele foi desenvolvido de forma totalmente gamificada, buscando engajar os usuários para fideliza-los, em busca de construir uma comunidade ao redor da marca.",
+    "FEATURE_1_P3": "O site conta com um sistema de ranking por equipes e usuários, onde os participantes podem competir entre si, ganhando pontos e medalhas por suas conquistas.",
+    "FEATURE_1_P4": "É possível acompanhar o ranking em tempo real, onde os usuários podem ver suas posições em relação aos demais participantes, o XP e seu mural de medalhas através do perfil do usuários.",
+
+    "TITLE_6":"Aplicativo para gerenciamento dos jogos",
+    "FEATURE_2_P1": "O aplicativo da Paranoia foi desenvolvido para ser uma ferramenta durante a execução dos jogos.",
+    "FEATURE_2_P2": "Com ele, os jogadores dão início ao jogo, pedem dicas, acompanham o tempo decorrido, e finalizam a partida, tudo isso de forma programada, sem necessidade de monitores.",
+    "FEATURE_2_P3": "Além disso, a ideia também é trazer dados dos jogadores, como perfil, ranking, informações de equipe, e também tutoriais que auxiliam durante o jogo.",
+
+    "TITLE_7":"Ranking por Equipes e Usuários",
+    "FEATURE_3_P1": "Os rankings foram implementados como forma de engajar ainda mais os jogadores e suas equipes.",
+    "FEATURE_3_P2": "Ele permite os jogadores verem sua posições de acordo com os pontos obtidos dentro dos jogos da Paranoia.",
+    "FEATURE_3_P3": "A Paranoia trouxe diversos modelos de jogos, desde Escape Games fisicos, Escape Box de entrega até enigmas de jogos online. Cada um deles gerava pontos e medalhas para os usuários.",
+
+    "TITLE_8":"Implementação de jogos lógicos semais com recompensas para os clientes dentro do site",
+    "FEATURE_4_P1": "Durante algum tempo, a Paranoia implementou desafios semanais com premiação em pontos dentro do site.",
+    "FEATURE_4_P2": "Os desafios consistiam em Jogos de Enigmas, onde os usuários deveriam solucionar os mesmos, utilizando dicas, e verificar a resposta.",
+    "FEATURE_4_P3": "Os usuários que acertavam os desafios ganhavam pontos. Os pontos poderiam ser utilizados para comprar produtos no site, com desconto ou obter dicas em outros Enigmas.",
+    "FEATURE_4_P4": "Os desafios foram uma forma de engajar os usuários, e também trazer novos usuários para o site, aumentando a comunidade em torno da marca, o que funcionou, como foi provado no meu artigo de TCC: <a href=\"https://deposita.ibict.br/workflowitems/1937/view\" target=\"_blank\">FIDELIZAÇÃO DE USUÁRIO EM AMBIENTE VIRTUAL: Um estudo sobre a influência da gamificação em ambientes virtuais</a>.",
+
+    "TITLE_9":"Aprendizados",
+    "LEARNINGS_P1": "Eu pude aprender e crescer muito desenvolvendo todas as necessidades da Paranoia.",
+    "LEARNINGS_P2": "Foram várias versões de sites, aplicativos, bases de dados, APIs, trabalhos com eletrônicos e configurações de servidores Linux, deploys em núvem e toda parte de DevOps que habitualmente eu não tinha contato.",
+    "LEARNINGS_P3": "Além disso, a Paranoia ainda serviu como um trabalho de criatividade imenso, onde pude criar os mais diversos jogos, desafios, enigmas e muito mais, trabalhando pensamento lógico e estratégico, game design e experiência de usuário.",
+    "LEARNINGS_P4": "Ser dono do meu próprio negócio me ensinou muito e me proporcionou viver cada pequena parte do processo de desenvolvimento, desde a concepção da ideia até a entrega final do produto.",
+    "LEARNINGS_P5": "A Paranoia ainda está em atividade, e eu continuo desenvolvendo novas soluções e aprimorando as existentes, sempre disposto a entregar soluções inovadoras e de qualidade para os clientes.",
+    "LEARNINGS_P6": "Se você tem interesse em acompanhar novidades, você pode fazer isso por aqui: <a href=\"https://www.instagram.com/paranoiajogos/\" target=\"_blank\">Instagram/paranoiajogos</a>"
+  }
+}

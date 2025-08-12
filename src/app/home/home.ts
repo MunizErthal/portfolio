@@ -67,6 +67,6 @@ export class Home {
   }
   
   openEmail() {
-    window.open('mailto:fernando.m.erthal@gmail.com', '_blank');
+    window.open('mailto:me@fernandome.com', '_blank');
   }
 }

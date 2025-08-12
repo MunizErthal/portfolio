@@ -20,24 +20,14 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Resumo</h1>
+                <h1>{{ 'TITLE_1' | translate:'paranoia' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    A <b>Paranoia</b> é uma empresa do ramo de entretenimento, especializada na criação de jogos e experiências gamificadas.
-                </p>
-                <p>
-                    Fundada inicialmente como um Escape Game, a empresa evoluiu para desenvolver soluções interativas para os segmentos corporativo, de entretenimento e digital.
-                </p>
-                <p>
-                    Durante toda sua trajetória, eu desenvolvi todas as soluções tecnológicas, desde o desenvolvimento dos jogos, mecânismos eletrônicos e aplicativos até a criação de sites e APIs de serviço, e o deploy das mesmas.
-                </p>
-                <p>
-                    Para os desenvolvimento, a escolha foi padronizar as técnologias, e por isso, utilizei <b>Java</b> para o back-end, <b>Angular</b> para os sites e <b>Ionic</b> para o aplicativo mobile.
-                </p>
-                <p>
-                    Se tiver interesse em acompanhar novidades, pode fazer isso por aqui: <a href="https://paranoia.com.br" target="_blank">paranoiajogos.com.br</a>
-                </p>
+                <p [innerHTML]="'RESUME_P1' | translate:'paranoia'"></p>
+                <p>{{ 'RESUME_P2' | translate:'paranoia' }}</p>
+                <p>{{ 'RESUME_P3' | translate:'paranoia' }}</p>
+                <p [innerHTML]="'RESUME_P4' | translate:'paranoia'"></p>
+                <p [innerHTML]="'RESUME_P5' | translate:'paranoia'"></p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -55,18 +45,12 @@
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-text' : 'content-right-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>A Paranoia</h1>
+                <h1>{{ 'TITLE_2' | translate:'paranoia' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    A Paranoia surgiu como um Escape Game, um jogo de fuga onde os participantes precisam resolver enigmas e desafios para escapar de uma sala temática dentro de um tempo limite.
-                </p>
-                <p>
-                    Com a vinda da Pandemia, e precisando se adaptar, a Paranoia evoluiu para criar experiências gamificadas, desenvolvendo jogos e soluções interativas para diversos segmentos.
-                </p>
-                <p>
-                    Hoje a Paranoia é uma empresa de entretenimento com foco na criação de jogos e experiências gamificadas.
-                </p>
+                <p>{{ 'ABOUT_P1' | translate:'paranoia' }}</p>
+                <p>{{ 'ABOUT_P2' | translate:'paranoia' }}</p>
+                <p>{{ 'ABOUT_P3' | translate:'paranoia' }}</p>
             </div>
         </div>
     </div>
@@ -74,18 +58,12 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Tecnologias e Implementação</h1>
+                <h1>{{ 'TITLE_3' | translate:'paranoia' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Para a implementação das soluções, a Paranoia optou por utilizar uma stack tecnológica padronizada, que inclui <b>Java</b> para o back-end, <b>Angular</b> para os sites e <b>Ionic</b> para o aplicativo mobile, além de <b>MySQL</b> para as bases de dados.
-                </p>
-                <p>
-                    Além disso, a Paranoia também utiliza tecnologias <b>Arduíno</b> para o desenvolvimento de mecânismos eletrônicos, permitindo a criação de experiências interativas e imersivas.
-                </p>
-                <p>
-                    Todas as demais necessidades de desenvolvimento, como deploys, sincronizações e integrações, foram realizadas também internamente, e por isso, a Paranoia trouxe muita experiência também com <b>Linux</b> e integrações, como por exemplo com <b>Gateways de pagamentos</b>.
-                </p>
+                <p [innerHTML]="'TECHSTACK_P1' | translate:'paranoia'"></p>
+                <p [innerHTML]="'TECHSTACK_P2' | translate:'paranoia'"></p>
+                <p [innerHTML]="'TECHSTACK_P3' | translate:'paranoia'"></p>
             </div>
         </div>
     </div>
@@ -93,20 +71,20 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-list' : 'content-list'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Algumas Implementações até aqui</h1>
+                <h1>{{ 'TITLE_4' | translate:'paranoia' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-list' : 'list'">
                 <ul>
-                    <li>Site totalmente gamificado</li>
-                    <li>Aplicativo para gerenciamento dos jogos</li>
-                    <li>Integração com PayU e MercadoPago</li>
-                    <li>Mecanismos Eletrônicos com sensores de toque, som e rfID</li>
-                    <li>Implementação de jogos lógicos semais com recompensas para os clientes dentro do site</li>
-                    <li>Sistema de recompensa com pontos para utilizar como desconto na compra dos produtos</li>
-                    <li>Sistema de medalhas</li>
-                    <li>Ranking por Equipes e Usuários</li>
-                    <li>Gerenciamento de reservas, agendamentos, pagamentos e vendas</li>
-                    <li>Sistema automatizado para solicitação de dicas durante partidas</li>
+                    <li>{{ 'FEATURE_LI_1' | translate:'paranoia' }}</li>
+                    <li>{{ 'FEATURE_LI_2' | translate:'paranoia' }}</li>
+                    <li>{{ 'FEATURE_LI_3' | translate:'paranoia' }}</li>
+                    <li>{{ 'FEATURE_LI_4' | translate:'paranoia' }}</li>
+                    <li>{{ 'FEATURE_LI_5' | translate:'paranoia' }}</li>
+                    <li>{{ 'FEATURE_LI_6' | translate:'paranoia' }}</li>
+                    <li>{{ 'FEATURE_LI_7' | translate:'paranoia' }}</li>
+                    <li>{{ 'FEATURE_LI_8' | translate:'paranoia' }}</li>
+                    <li>{{ 'FEATURE_LI_9' | translate:'paranoia' }}</li>
+                    <li>{{ 'FEATURE_LI_10' | translate:'paranoia' }}</li>
                 </ul>
             </div>
         </div>
@@ -115,21 +93,13 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Site totalmente gamificado e Sistema de medalhas</h1>
+                <h1>{{ 'TITLE_5' | translate:'paranoia' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    O site foi caso de estudo para a escrita do TCC: <a href="https://deposita.ibict.br/workflowitems/1937/view" target="_blank">FIDELIZAÇÃO DE USUÁRIO EM AMBIENTE VIRTUAL: Um estudo sobre a influência da gamificação em ambientes virtuais</a>.
-                </p>
-                <p>
-                    Ele foi desenvolvido de forma totalmente gamificada, buscando engajar os usuários para fideliza-los, em busca de construir uma comunidade ao redor da marca. 
-                </p>
-                <p>
-                    O site conta com um sistema de ranking por equipes e usuários, onde os participantes podem competir entre si, ganhando pontos e medalhas por suas conquistas.
-                </p>
-                <p>
-                    É possível acompanhar o ranking em tempo real, onde os usuários podem ver suas posições em relação aos demais participantes, o XP e seu mural de medalhas através do perfil do usuários.
-                </p>
+                <p [innerHTML]="'FEATURE_1_P1' | translate:'paranoia'"></p>
+                <p>{{ 'FEATURE_1_P2' | translate:'paranoia' }}</p>
+                <p>{{ 'FEATURE_1_P3' | translate:'paranoia' }}</p>
+                <p>{{ 'FEATURE_1_P4' | translate:'paranoia' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
@@ -142,18 +112,12 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Aplicativo para gerenciamento dos jogos</h1>
+                <h1>{{ 'TITLE_6' | translate:'paranoia' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    O aplicativo da Paranoia foi desenvolvido para ser uma ferramenta durante a execução dos jogos.
-                </p>
-                <p>
-                    Com ele, os jogadores dariam início ao jogo, pediriam dicas, acompanhariam o tempo decorrido, e finalizariam a partida, tudo isso de forma programada, sem necessidade de monitores.
-                </p>
-                <p>
-                    Além disso, a ideia também era trazer dados dos jogadores, como perfil, ranking, informações de equipe, e também tutoriais que auxiliariam durante o jogo.
-                </p>
+                <p>{{ 'FEATURE_2_P1' | translate:'paranoia' }}</p>
+                <p>{{ 'FEATURE_2_P2' | translate:'paranoia' }}</p>
+                <p>{{ 'FEATURE_2_P3' | translate:'paranoia' }}</p>
             </div>
         </div>
         <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'" style="display: flex;">
@@ -169,18 +133,12 @@
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
         <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Ranking por Equipes e Usuários</h1>
+                <h1>{{ 'TITLE_7' | translate:'paranoia' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Os rankings foram implementados como forma de engajar ainda mais os jogadores e suas equipes.
-                </p>
-                <p>
-                    Ele permitia os jogadores verem sua posições de acordo com os pontos obtidos dentro dos jogos da Paranoia 
-                </p>
-                <p>
-                    A Paranoai trouxe diversos modelos de jogos, desde Escape Games fisicos, Escape Box de entrega até enigmas de jogos online. Cada um deles gerava pontos e medalhas para os usuários 
-                </p>
+                <p>{{ 'FEATURE_3_P1' | translate:'paranoia' }}</p>
+                <p>{{ 'FEATURE_3_P2' | translate:'paranoia' }}</p>
+                <p>{{ 'FEATURE_3_P3' | translate:'paranoia' }}</p>
             </div>
         </div><div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'" style="display: flex;">
             <div [class]="mobileMenu ? 'mobile-single-image mobile-mobile' : 'single-image mobile'" style="margin-right: 1vw;">
@@ -193,29 +151,36 @@
     </div>
 
     <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
-        <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
+        <div [class]="mobileMenu ? 'mobile-content-left-text' : 'content-left-text'">
             <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
-                <h1>Aprendizados</h1>
+                <h1>{{ 'TITLE_8' | translate:'paranoia' }}</h1>
             </div>
             <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
-                <p>
-                    Eu pude aprender e crescer muito desenvolvendo todas as necessidades da Paranoia 
-                </p>
-                <p>
-                    Foram várias versões de sites, aplicativos, bases de dados, APIs, trabalhos com eletrônicos e configurações de servidores Linux, deploys em núvem e toda parte de DevOps que habitualmente eu não tinha contato.
-                </p>
-                <p>
-                    Além disso, a Paranoia ainda serviu como um trabalho de criatividade imenso, onde pude criar os mais diversos jogos, desafios, enigmas e muito mais, trabalhando pensamento lógico e estratégico, game design e experiência de usuário.
-                </p>
-                <p>
-                    Ser dono do meu próprio negócio me ensinou muito e me proporcionou viver cada pequena parte do processo de desenvolvimento, desde a concepção da ideia até a entrega final do produto.
-                </p>
-                <p>
-                    A Paranoia ainda está em atividade, e eu continuo desenvolvendo novas soluções e aprimorando as existentes, sempre disposto a entregar soluções inovadoras e de qualidade para os clientes.
-                </p>
-                <p>
-                    Se você tem interesse em acompanhar novidades, você pode fazer isso por aqui: <a href="https://paranoiajogos.com.br" target="_blank">paranoiajogos.com.br</a>
-                </p>
+                <p>{{ 'FEATURE_4_P1' | translate:'paranoia' }}</p>
+                <p>{{ 'FEATURE_4_P2' | translate:'paranoia' }}</p>
+                <p>{{ 'FEATURE_4_P3' | translate:'paranoia' }}</p>
+                <p [innerHTML]="'FEATURE_4_P4' | translate:'paranoia'"></p>
+            </div>
+        </div>
+        <div [class]="mobileMenu ? 'mobile-content-right-image' : 'content-right-image'">
+            <div [class]="mobileMenu ? 'mobile-single-video' : 'single-video'">
+                <video src="/images/projects/videos/paranoia/enigmas.mp4" autoplay loop muted playsinline></video>
+            </div>
+        </div>
+    </div>
+
+    <div [class]="mobileMenu ? 'mobile-content-info' : 'content-info'">
+        <div [class]="mobileMenu ? 'mobile-content-full' : 'content-full'">
+            <div [class]="mobileMenu ? 'mobile-sub-title' : 'sub-title'">
+                <h1>{{ 'TITLE_9' | translate:'paranoia' }}</h1>
+            </div>
+            <div [class]="mobileMenu ? 'mobile-paragraph' : 'paragraph'">
+                <p [innerHTML]="'LEARNINGS_P1' | translate:'paranoia'"></p>
+                <p>{{ 'LEARNINGS_P2' | translate:'paranoia' }}</p>
+                <p>{{ 'LEARNINGS_P3' | translate:'paranoia' }}</p>
+                <p>{{ 'LEARNINGS_P4' | translate:'paranoia' }}</p>
+                <p>{{ 'LEARNINGS_P5' | translate:'paranoia' }}</p>
+                <p [innerHTML]="'LEARNINGS_P6' | translate:'paranoia'"></p>
             </div>
         </div>
     </div>
